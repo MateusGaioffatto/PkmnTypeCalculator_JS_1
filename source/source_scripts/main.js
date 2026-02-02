@@ -83,9 +83,25 @@ pokemonTypes_buttons.forEach((type_button, type_button_selected) => {
 function foo3(first_type_selected, second_type_selected) {
     if (second_type_selected === false) {
         ALL_POKEMON.forEach(POKEMON => {
-            if (POKEMON.types.length === 1 && POKEMON.types[0].type.name === first_type_selected.toLowerCase().trim()) {
+            let isEspecialPokemon = false;
+            if (POKEMON.name.indexOf('-') !== -1){
+                const contentAfterHyphen = POKEMON.name.split('-');
+                if (
+                    contentAfterHyphen[1] === "mega" || contentAfterHyphen[1] === "gmax" || 
+                    contentAfterHyphen[2] === "totem" || contentAfterHyphen[1] === "totem" ||
+                    contentAfterHyphen[0] === "pikachu" || contentAfterHyphen[0] === "terapagos" || 
+                    contentAfterHyphen[0] === "eevee"
+                   ) 
+                {
+                    isEspecialPokemon = true;
+                }
+            }
+
+            if (POKEMON.types.length === 1 && !isEspecialPokemon && POKEMON.types[0].type.name === first_type_selected.toLowerCase().trim()) {
+                const pokemon_truncetedName = POKEMON.name.indexOf('-') !== -1 ? POKEMON.name.substring(0, POKEMON.name.indexOf('-')) : POKEMON.name;
+
                 const pokemon_moreInformation_href = document.createElement('a');
-                pokemon_moreInformation_href.href = `https://pokemondb.net/pokedex/${POKEMON.name}`;
+                pokemon_moreInformation_href.href = `https://pokemondb.net/pokedex/${pokemon_truncetedName}`;
                 pokemon_moreInformation_href.target = "blank";
 
                 const pokemon_spritesImages = document.createElement('img');
@@ -99,13 +115,28 @@ function foo3(first_type_selected, second_type_selected) {
     }
     else {
         let pokemon_doubleTypeExists = false;
+
         pokemonSprites_spritesContainer.innerHTML = "";
         ALL_POKEMON.forEach(POKEMON => {
+            let isEspecialPokemon = false;
+            if (POKEMON.name.indexOf('-') !== -1){
+                const contentAfterHyphen = POKEMON.name.split('-');
+                if (
+                    contentAfterHyphen[1] === "mega" || contentAfterHyphen[1] === "gmax" || 
+                    contentAfterHyphen[2] === "totem" || contentAfterHyphen[1] === "totem" || 
+                    contentAfterHyphen[0] === "pikachu" || contentAfterHyphen[0] === "terapagos" || 
+                    contentAfterHyphen[0] === "eevee"
+                    ) 
+                {
+                    isEspecialPokemon = true;
+                }
+            }
+
             if (
-                POKEMON.types.length === 2 &&
+                POKEMON.types.length === 2 && !isEspecialPokemon &&
                 ((POKEMON.types[0].type.name === first_type_selected.toLowerCase().trim() && POKEMON.types[1].type.name === second_type_selected.toLowerCase().trim()) ||
                 (POKEMON.types[1].type.name === first_type_selected.toLowerCase().trim() && POKEMON.types[0].type.name === second_type_selected.toLowerCase().trim()))
-                ) 
+            ) 
             {
                 pokemon_doubleTypeExists = true;
                 const pokemon_truncetedName = POKEMON.name.indexOf('-') !== -1 ? POKEMON.name.substring(0, POKEMON.name.indexOf('-')) : POKEMON.name;
