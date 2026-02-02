@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wdevice-w initial-scale=1.0">
+    <title> Pokemon Calculator [Test] </title>
+    <link rel="shortcut icon" href="source_styles/hearder_icon_Gogoat.png" type="png">
+    <link rel="stylesheet" href="source_styles/styles.css">
+</head>
+<body>
+    <div class="pokemon-types_container" id="pokemon-types_container-id">
+        <button class="pokemon-type_Normal"> Normal </button>
+        <button class="pokemon-type_Fire"> Fire </button>
+        <button class="pokemon-type_Water"> Water </button>
+        <button class="pokemon-type_Electric"> Electric </button>
+        <button class="pokemon-type_Grass"> Grass </button>
+        <button class="pokemon-type_Ice"> Ice </button>
+        <button class="pokemon-type_Fighting"> Fighting </button>
+        <button class="pokemon-type_Poison"> Poison </button>
+        <button class="pokemon-type_Ground"> Ground </button>
+        <br>
+        <button class="pokemon-type_Flying"> Flying </button>
+        <button class="pokemon-type_Psychic"> Psychic </button>
+        <button class="pokemon-type_Bug"> Bug </button>
+        <button class="pokemon-type_Rock"> Rock </button>
+        <button class="pokemon-type_Ghost"> Ghost </button>
+        <button class="pokemon-type_Dragon"> Dragon </button>
+        <button class="pokemon-type_Dark"> Dark </button>
+        <button class="pokemon-type_Steel"> Steel </button>
+        <button class="pokemon-type_Fairy"> Fairy </button>
+    </div>
+
+    <div style="display: flex;">
+        <div class="pokemon-sprites_container" id="pokemon-sprites_container-id">
+            <div id="pokemon-sprites_spriteContainer-id" style="text-align: center;">                
+                <!-- <img src="source_styles/hearder_icon_Gogoat.png" alt="👍" id="pokemon-sprites_image-id"> -->
+            </div>
+        </div>
+        <div class="pokemon-typesEffects_container" id="pokemon-typesEffects_container-id">
+            <h1></h1>
+            <div class="pokemon-typesTakeSuperEffective" id="pokemon-typesTakeSuperEffective-id">
+                <h3> weaknesses </h3>
+            </div>              
+            <div class="pokemon-typesTakeNormalEffect" id="pokemon-typesTakeNormalEffect-id">
+                <h3> normal effects </h3>
+            </div>
+            <div class="pokemon-typesTakeNot VeryEffective" id="pokemon-typesTakeNotVeryEffective-id">
+                <h3> resistences </h3>
+            </div>
+            <div class="pokemon-typesTakeNoEffect" id="pokemon-typesTakeNoEffect-id">
+                <h3> null effects </h3>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="source_scripts/main.js" type="module"></script>
+</body>
+</html>

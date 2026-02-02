@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+}
+    body {
+        background-color: #eee;
+    }
+
+.pokemon-types_container {
+    padding: 1rem;
+
+    background-color: #ffffff;
+
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12);
+}
+    .pokemon-types_container, .pokemon-typesEffects_container {
+        text-align: center;
+        display: block;    
+    }
+        .pokemon-types_container button, .pokemon-typesEffects_container button {
+            margin-top: 5.5px;
+            margin-right: 1.5px;
+            
+            border-radius: 1mm;
+            border: none;
+
+            width: 74px;
+            height: 5.5mm;
+            
+            font-size: 80%;
+            
+            box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12);
+
+            cursor: pointer;
+            transition: transform 1s;
+        }
+            .pokemon-type_Normal {background-color: #aa9; color: #ffffff;}    /* NORMAL */
+            .pokemon-type_Fire   {background-color: #f42; color: #ffffff;}    /* FIRE */
+            .pokemon-type_Water  {background-color: #39f; color: #ffffff;}    /* WATER */
+            .pokemon-type_Electric {background-color: #fc3; color: #ffffff;}  /* ELECTRIC */
+            .pokemon-type_Grass  {background-color: #7c5; color: #ffffff;}    /* GRASS */
+            .pokemon-type_Ice    {background-color: #6cf; color: #ffffff;}    /* ICE */
+            .pokemon-type_Fighting {background-color: #b54; color: #ffffff;}  /* FIGHTING */
+            .pokemon-type_Poison {background-color: #a59; color: #ffffff;}    /* POISON */
+            .pokemon-type_Ground {background-color: #db5; color: #ffffff;}    /* GROUND */
+            .pokemon-type_Flying {background-color: #89f; color: #ffffff;}    /* FLYING */
+            .pokemon-type_Psychic {background-color: #f59; color: #ffffff;}   /* PSYCHIC */
+            .pokemon-type_Bug    {background-color: #ab2; color: #ffffff;}    /* BUG */
+            .pokemon-type_Rock   {background-color: #ba6; color: #ffffff;}    /* ROCK */
+            .pokemon-type_Ghost  {background-color: #66b; color: #ffffff;}    /* GHOST */
+            .pokemon-type_Dragon {background-color: #76e; color: #ffffff;}    /* DRAGON */
+            .pokemon-type_Dark   {background-color: #754; color: #ffffff;}    /* DARK */
+            .pokemon-type_Steel  {background-color: #aab; color: #ffffff;}    /* STEEL */
+            .pokemon-type_Fairy  {background-color: #e9e; color: #ffffff;}    /* FAIRY */
+
+.pokemon-typesEffects_container, .pokemon-sprites_container {
+    display: none;
+
+    width: 50%;
+
+    padding: 1rem;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+    .pokemon-typesEffects_container h2, .pokemon-sprites_container h2 {
+        font-size: small;
+    }
+    .pokemon-typesEffects_container button, .pokemon-sprites_container button {
+        min-width: 100px;
+
+        text-decoration: none;
+    }
+    .pokemon-typesEffects_container div, .pokemon-sprites_container div {
+        width: 50%;
+
+        padding: 1rem;
+        margin: 10px auto;
+
+        border-radius: 10px;
+
+        background-color: #ffffff;
+
+        box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12);
+    }
+        .pokemon-typesEffects_container div {
+            width: 80%;
+        }
+    
+    .pokemon-sprites_container {
+        max-height: 50%;
+    }
+        #pokemon-sprites_spriteContainer-id {
+            display: flex;
+            flex-wrap: wrap;
+
+            width: 85%;
+            max-height: 65vh;
+
+            padding: 3rem 0px;
+
+            gap: 10px;
+
+            justify-content: center;
+            
+            overflow-y: auto;
+            
+            color: #000000b2;
+        }
+        .pokemon-sprites_container img {
+            /* width: 50%;  */
+            
+            /* padding: 1rem 1rem;         */
+            
+            box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12);
+        }
