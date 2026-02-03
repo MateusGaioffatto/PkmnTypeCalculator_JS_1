@@ -11,6 +11,10 @@ export const pokemonTypes_buttons = document.querySelectorAll(".pokemon-types_co
 
 export const pokemonSprites_container = document.getElementById("pokemon-sprites_container-id");
     export const pokemonSprites_spritesContainer = document.getElementById("pokemon-sprites_spriteContainer-id");
+    const selectedPokemon_spritesContainer = document.getElementById("pokemon-selectedPokemon_spriteContainer-id");
+        const selectedPokemon_spritesContainer_img = document.querySelector("#pokemon-selectedPokemon_spriteContainer-id img");
+    console.log(selectedPokemon_spritesContainer_img);
+
 
 export const pokemonTypesEffects_container = document.getElementById("pokemon-typesEffects_container-id");
 export const pokemonTypesEffects_buttons = document.querySelectorAll(".pokemon-typesEffects_container button");
@@ -101,15 +105,21 @@ function foo3(first_type_selected, second_type_selected) {
                 const pokemon_truncetedName = POKEMON.name.indexOf('-') !== -1 ? POKEMON.name.substring(0, POKEMON.name.indexOf('-')) : POKEMON.name;
 
                 const pokemon_moreInformation_href = document.createElement('a');
-                pokemon_moreInformation_href.href = `https://pokemondb.net/pokedex/${pokemon_truncetedName}`;
-                pokemon_moreInformation_href.target = "blank";
-
+                // pokemon_moreInformation_href.href = `https://pokemondb.net/pokedex/${pokemon_truncetedName}`;
+                // pokemon_moreInformation_href.target = "blank";
+                
                 const pokemon_spritesImages = document.createElement('img');
                 pokemon_spritesImages.src = POKEMON.sprites.front_default;
-
+                
                 pokemon_moreInformation_href.appendChild(pokemon_spritesImages);
                 
                 pokemonSprites_spritesContainer.appendChild(pokemon_moreInformation_href);
+
+                pokemon_moreInformation_href.addEventListener('click', function() {
+                    selectedPokemon_spritesContainer.style.display = "unset";
+                    selectedPokemon_spritesContainer_img.src = POKEMON.sprites.front_default;
+                    pokemonSprites_container.style.display = "none";
+                })
             }
         })
     }
@@ -142,15 +152,20 @@ function foo3(first_type_selected, second_type_selected) {
                 const pokemon_truncetedName = POKEMON.name.indexOf('-') !== -1 ? POKEMON.name.substring(0, POKEMON.name.indexOf('-')) : POKEMON.name;
 
                 const pokemon_moreInformation_href = document.createElement('a');
-                pokemon_moreInformation_href.href = `https://pokemondb.net/pokedex/${pokemon_truncetedName}`;
-                pokemon_moreInformation_href.target = "blank";
-
+                // pokemon_moreInformation_href.href = `https://pokemondb.net/pokedex/${pokemon_truncetedName}`;
+                // pokemon_moreInformation_href.target = "blank";
+                
                 const pokemon_spritesImages = document.createElement('img');
                 pokemon_spritesImages.src = POKEMON.sprites.front_default;
                 
                 pokemon_moreInformation_href.appendChild(pokemon_spritesImages);
                 
                 pokemonSprites_spritesContainer.appendChild(pokemon_moreInformation_href);
+
+                pokemon_moreInformation_href.addEventListener('click', function() {
+                    selectedPokemon_spritesContainer.style.display = "unset";
+                    pokemonSprites_container.style.display = "none";
+                })
             }
         })
         if (!pokemon_doubleTypeExists) {
