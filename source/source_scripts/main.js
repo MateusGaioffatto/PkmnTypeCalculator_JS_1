@@ -11,10 +11,8 @@ export const pokemonTypes_buttons = document.querySelectorAll(".pokemon-types_co
 
 export const pokemonSprites_container = document.getElementById("pokemon-sprites_container-id");
     export const pokemonSprites_spritesContainer = document.getElementById("pokemon-sprites_spriteContainer-id");
-    const selectedPokemon_spritesContainer = document.getElementById("pokemon-selectedPokemon_spriteContainer-id");
-        const selectedPokemon_spritesContainer_img = document.querySelector("#pokemon-selectedPokemon_spriteContainer-id img");
-    console.log(selectedPokemon_spritesContainer_img);
-
+    export const selectedPokemon_spritesContainer = document.getElementById("pokemon-selectedPokemon_spriteContainer-id");
+        export const selectedPokemon_spritesContainer_img = document.querySelector("#pokemon-selectedPokemon_spriteContainer-id img");
 
 export const pokemonTypesEffects_container = document.getElementById("pokemon-typesEffects_container-id");
 export const pokemonTypesEffects_buttons = document.querySelectorAll(".pokemon-typesEffects_container button");
@@ -42,7 +40,7 @@ pokemonTypes_buttons.forEach((type_button, type_button_selected) => {
         if (clickCount_selected_types === 1) {
             chossen_types[0] = type_button_selected;
             choosen_types_names[0] = type_button.textContent;
-            foo3(choosen_types_names[0], false);
+            create_PokemonSprites_Images(choosen_types_names[0], false);
             
             pokemonTypesEffects_H1.textContent = choosen_types_names[0];
 
@@ -51,7 +49,7 @@ pokemonTypes_buttons.forEach((type_button, type_button_selected) => {
         else if (clickCount_selected_types === 2) {
             chossen_types[1] = type_button_selected;
             choosen_types_names[1] = type_button.textContent;
-            foo3(choosen_types_names[0], choosen_types_names[1]);
+            create_PokemonSprites_Images(choosen_types_names[0], choosen_types_names[1]);
 
             if (chossen_types[0] !== chossen_types[1]) {
                 pokemonTypesEffects_H1.textContent = `${choosen_types_names[0]} + ${choosen_types_names[1]}`;
@@ -73,7 +71,7 @@ pokemonTypes_buttons.forEach((type_button, type_button_selected) => {
             pokemonTypesEffects_H1.textContent = "";
 
             pokemonTypesEffects_container.style.display = "none";
-            pokemonSprites_container.style.display = "none";
+            pokemonSprites_spritesContainer.style.display = "none";
 
             clickCount_selected_types = 0;     
             chossen_types = [];
@@ -84,7 +82,7 @@ pokemonTypes_buttons.forEach((type_button, type_button_selected) => {
 
 
 
-function foo3(first_type_selected, second_type_selected) {
+function create_PokemonSprites_Images(first_type_selected, second_type_selected) {
     if (second_type_selected === false) {
         ALL_POKEMON.forEach(POKEMON => {
             let isEspecialPokemon = false;
@@ -116,9 +114,13 @@ function foo3(first_type_selected, second_type_selected) {
                 pokemonSprites_spritesContainer.appendChild(pokemon_moreInformation_href);
 
                 pokemon_moreInformation_href.addEventListener('click', function() {
-                    selectedPokemon_spritesContainer.style.display = "unset";
+                    selectedPokemon_spritesContainer.style.display = "block";
                     selectedPokemon_spritesContainer_img.src = POKEMON.sprites.front_default;
-                    pokemonSprites_container.style.display = "none";
+                    pokemonSprites_spritesContainer.style.display = "none";
+                })
+                selectedPokemon_spritesContainer_img.addEventListener('click', function() {
+                    selectedPokemon_spritesContainer.style.display = "none";
+                    pokemonSprites_spritesContainer.style.display = "flex";
                 })
             }
         })
@@ -163,8 +165,12 @@ function foo3(first_type_selected, second_type_selected) {
                 pokemonSprites_spritesContainer.appendChild(pokemon_moreInformation_href);
 
                 pokemon_moreInformation_href.addEventListener('click', function() {
-                    selectedPokemon_spritesContainer.style.display = "unset";
-                    pokemonSprites_container.style.display = "none";
+                    selectedPokemon_spritesContainer.style.display = "block";
+                    pokemonSprites_spritesContainer.style.display = "none";
+                })
+                selectedPokemon_spritesContainer_img.addEventListener('click', function() {
+                    selectedPokemon_spritesContainer.style.display = "none";
+                    pokemonSprites_spritesContainer.style.display = "flex";
                 })
             }
         })
