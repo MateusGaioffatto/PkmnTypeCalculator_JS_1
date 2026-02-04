@@ -33,8 +33,9 @@ let choosen_types_names = [];
 
 pokemonTypes_buttons.forEach((type_button, type_button_selected) => {
     type_button.addEventListener('click', () => {
-        pokemonTypesEffects_container.style.display = "unset";
-        pokemonSprites_container.style.display = "unset";
+        pokemonTypesEffects_container.style.display = "initial";
+        pokemonSprites_spritesContainer.style.display = "initial";
+        pokemonSprites_container.style.display = "flex";
 
         clickCount_selected_types++;
         if (clickCount_selected_types === 1) {
@@ -47,6 +48,8 @@ pokemonTypes_buttons.forEach((type_button, type_button_selected) => {
             show_UniqueType_Effects(type_button_selected, choosen_types_names[0]);
         }
         else if (clickCount_selected_types === 2) {
+            selectedPokemon_spritesContainer.style.display = "none";
+
             chossen_types[1] = type_button_selected;
             choosen_types_names[1] = type_button.textContent;
             create_PokemonSprites_Images(choosen_types_names[0], choosen_types_names[1]);
@@ -72,6 +75,8 @@ pokemonTypes_buttons.forEach((type_button, type_button_selected) => {
 
             pokemonTypesEffects_container.style.display = "none";
             pokemonSprites_spritesContainer.style.display = "none";
+            pokemonSprites_spritesContainer.style.display = "none";
+            selectedPokemon_spritesContainer.style.display = "none";
 
             clickCount_selected_types = 0;     
             chossen_types = [];
@@ -114,7 +119,7 @@ function create_PokemonSprites_Images(first_type_selected, second_type_selected)
                 pokemonSprites_spritesContainer.appendChild(pokemon_moreInformation_href);
 
                 pokemon_moreInformation_href.addEventListener('click', function() {
-                    selectedPokemon_spritesContainer.style.display = "block";
+                    selectedPokemon_spritesContainer.style.display = "flex";
                     selectedPokemon_spritesContainer_img.src = POKEMON.sprites.front_default;
                     pokemonSprites_spritesContainer.style.display = "none";
                 })
@@ -166,11 +171,12 @@ function create_PokemonSprites_Images(first_type_selected, second_type_selected)
 
                 pokemon_moreInformation_href.addEventListener('click', function() {
                     selectedPokemon_spritesContainer.style.display = "block";
+                    selectedPokemon_spritesContainer_img.src = POKEMON.sprites.front_default;
                     pokemonSprites_spritesContainer.style.display = "none";
                 })
                 selectedPokemon_spritesContainer_img.addEventListener('click', function() {
                     selectedPokemon_spritesContainer.style.display = "none";
-                    pokemonSprites_spritesContainer.style.display = "flex";
+                    pokemonSprites_spritesContainer.style.display = "block";
                 })
             }
         })
