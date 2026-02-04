@@ -13,6 +13,7 @@ export const pokemonSprites_container = document.getElementById("pokemon-sprites
     export const pokemonSprites_spritesContainer = document.getElementById("pokemon-sprites_spriteContainer-id");
     export const selectedPokemon_spritesContainer = document.getElementById("pokemon-selectedPokemon_spriteContainer-id");
         export const selectedPokemon_spritesContainer_img = document.querySelector("#pokemon-selectedPokemon_spriteContainer-id img");
+        export const selectedPokemon_spritesContainer_h2 = document.querySelector("#pokemon-selectedPokemon_spriteContainer-id h2");
 
 export const pokemonTypesEffects_container = document.getElementById("pokemon-typesEffects_container-id");
 export const pokemonTypesEffects_buttons = document.querySelectorAll(".pokemon-typesEffects_container button");
@@ -119,11 +120,13 @@ function create_PokemonSprites_Images(first_type_selected, second_type_selected)
                 pokemonSprites_spritesContainer.appendChild(pokemon_moreInformation_href);
 
                 pokemon_moreInformation_href.addEventListener('click', function() {
+                    selectedPokemon_spritesContainer_h2.textContent = POKEMON.name.charAt(0).toUpperCase() + POKEMON.name.slice(1);
                     selectedPokemon_spritesContainer.style.display = "flex";
                     selectedPokemon_spritesContainer_img.src = POKEMON.sprites.front_default;
                     pokemonSprites_spritesContainer.style.display = "none";
                 })
                 selectedPokemon_spritesContainer_img.addEventListener('click', function() {
+                    selectedPokemon_spritesContainer_h2.textContent = "";
                     selectedPokemon_spritesContainer.style.display = "none";
                     pokemonSprites_spritesContainer.style.display = "flex";
                 })
@@ -170,11 +173,13 @@ function create_PokemonSprites_Images(first_type_selected, second_type_selected)
                 pokemonSprites_spritesContainer.appendChild(pokemon_moreInformation_href);
 
                 pokemon_moreInformation_href.addEventListener('click', function() {
-                    selectedPokemon_spritesContainer.style.display = "block";
+                    selectedPokemon_spritesContainer_h2.textContent = POKEMON.name.charAt(0).toUpperCase() + POKEMON.name.slice(1);
+                    selectedPokemon_spritesContainer.style.display = "flex";
                     selectedPokemon_spritesContainer_img.src = POKEMON.sprites.front_default;
                     pokemonSprites_spritesContainer.style.display = "none";
                 })
                 selectedPokemon_spritesContainer_img.addEventListener('click', function() {
+                    selectedPokemon_spritesContainer_h2.textContent = "";
                     selectedPokemon_spritesContainer.style.display = "none";
                     pokemonSprites_spritesContainer.style.display = "block";
                 })

@@ -119,6 +119,8 @@
         justify-content: start;
         text-align: unset;
 
+        padding: 10px;
+
         width: 70vh;
         height: 70vh;
     }
