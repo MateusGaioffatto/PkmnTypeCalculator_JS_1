@@ -94,5 +94,5 @@ export const pokerogue_pokemonSinnoh_passives = {
   manaphy: "Primordial Sea",
   darkrai: "Unnerve",
   shaymin: "Grassy Surge",
-  arceus: "Adaptability",
+  arceus: "Adaptability"
 }
