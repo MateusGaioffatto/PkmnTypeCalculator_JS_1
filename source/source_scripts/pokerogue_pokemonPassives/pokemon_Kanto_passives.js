@@ -2,8 +2,6 @@ export const pokerogue_pokemonPassives_Kanto = {
   bulbasaur: "Grassy Surge",
   ivysaur: "Grassy Surge",
   venusaur: "Grassy Surge",
-  mega_venusaur: "Seed Sower",
-  gigantamax_venusaur: "Flower Veil",
   charmander: "Sheer Force",
   charmeleon: "Beast Boost",
   charizard: "Beast Boost",
@@ -56,7 +54,6 @@ export const pokerogue_pokemonPassives_Kanto = {
   diglett: "Sturdy",
   dugtrio: "Sturdy",
   meowth: "Tough Claws",
-  gigantamax_meowth: "Tough Claws",
   persian: "Tough Claws",
   psyduck: "Simple",
   golduck: "Simple",
@@ -135,7 +132,6 @@ export const pokerogue_pokemonPassives_Kanto = {
   tangela: "Seed Sower",
   tangrowth: "Seed Sower",
   kangaskhan: "Technician",
-  // MEGA KANGASKHAN
   horsea: "Dragons Maw",
   seadra: "Dragons Maw",
   kingdra: "Multiscale",
@@ -145,14 +141,11 @@ export const pokerogue_pokemonPassives_Kanto = {
   starmie: "Regenerator",
   scyther: "Tinted Lens",
   scizor: "Tough Claws",
-  // MEGA SCIZOR
   kleavor: "Weak Armor",
   pinsir: "Tinted Lens",
-  // MEGA PINSIR
   tauros: "Stamina",
   magikarp: "Multiscale",
   gyarados: "Multiscale",
-  // MEGA GYARADOS
   lapras: "Filter",
   ditto: "Adaptability",
   eevee: "Pickup",
@@ -172,7 +165,6 @@ export const pokerogue_pokemonPassives_Kanto = {
   kabuto: "Tough Claws",
   kabutops: "Tough Claws",
   aerodactyl: "Intimidate",
-  // MEGA AERODACTYL
   articuno: "Snow Warning",
   zapdos: "Drizzle",
   moltres: "Drought",
@@ -180,7 +172,5 @@ export const pokerogue_pokemonPassives_Kanto = {
   dragonair: "Multiscale",
   dragonite: "Aerilate",
   mewtwo: "Neuroforce",
-  // MEGA MEWTWO X
-  // MEGA MEWTWO Y
   mew: "Protean"
 };
