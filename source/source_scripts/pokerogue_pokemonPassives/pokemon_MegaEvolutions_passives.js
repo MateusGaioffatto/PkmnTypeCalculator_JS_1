@@ -15,3 +15,13 @@ export const pokerogue_KantoMegaEvolutions_passives = {
   mega_mewtwo_x: "Neuroforce",
   mega_mewtwo_y: "Neuroforce"
 };
+
+
+export const pokerogue_JohtoMegaEvolutions_passives = {
+  mega_steelix: "Sand Spit",
+  mega_scizor: "Tough Claws",
+  mega_ampharos: "Fluffy",
+  mega_heracross: "Technician",
+  mega_houndoom: "Lightning Rod",
+  mega_tyranitar: "Solid Rock"
+};
