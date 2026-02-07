@@ -9,7 +9,8 @@ export const pokerogue_KantoGigantamaxes_passives = {
   gigantamax_gengar: "Regenerator",
   gigantamax_kingler: "Unburden",
   gigantamax_lapras: "Filter",
-  gigantamax_eevee: "Fluffy"
+  gigantamax_eevee: "Fluffy",
+  gigantamax_snorlax: "Ripen"
 };
 
 export const pokerogue_UnovaGigantamaxes_passives = {

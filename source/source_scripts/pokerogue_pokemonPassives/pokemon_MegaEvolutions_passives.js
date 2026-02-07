@@ -47,3 +47,11 @@ export const pokerogue_HoennMegaEvolutions_passives = {
   mega_latios: "Neuroforce",
   mega_rayquaza: "Unnerve"
 }
+
+export const pokerogue_SinnohMegaEvolutions_passives = {
+  mega_lopunny: "Adaptability",
+  mega_lucario: "Mind's Eye",
+  mega_gallade: "Sharpness",
+  mega_garchomp: "Sand Rush",
+  mega_abomasnow: "Seed Sower"
+};
