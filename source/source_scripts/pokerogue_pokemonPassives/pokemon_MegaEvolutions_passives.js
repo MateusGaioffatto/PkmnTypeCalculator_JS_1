@@ -55,3 +55,7 @@ export const pokerogue_SinnohMegaEvolutions_passives = {
   mega_garchomp: "Sand Rush",
   mega_abomasnow: "Seed Sower"
 };
+
+export const pokerogue_UnovaMegaEvolutions_passives = {
+  mega_audino: "Fairy Aura"
+};
