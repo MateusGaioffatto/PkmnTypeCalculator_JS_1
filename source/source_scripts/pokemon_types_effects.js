@@ -5,8 +5,8 @@ import { pokemonTypesEffects_buttons } from "./main.js";
     import { pokemonTypes_TakeNotVeryEffective_container } from "./main.js";
     import { pokemonTypes_TakeNoEffect_container } from "./main.js";
 
-import { pokemonTypes_container } from "./pokemon_database_infomations.js";
-    import { pokemonTypes_buttons } from "./pokemon_database_infomations.js";
+import { pokemonTypes_container } from "./main.js";
+    import { pokemonTypes_buttons } from "./main.js";
 
 import { pokemonTypes_Effects } from "./pokemon_types.js"
 import { pokemonTypes_Names } from "./pokemon_types.js";

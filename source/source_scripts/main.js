@@ -1,10 +1,20 @@
-import { ALL_POKEMON } from "./pokemon_types.js";
+export let ALL_POKEMON = [];
+fetch(`https://pokeapi.co/api/v2/pokemon/?limit=2000`)
+    .then(pokemon_response => pokemon_response.json())
+    .then(pokemon_data => {
+        // console.log(pokemon_data);
+            pokemon_data.results.forEach(pokemon => {
+                fetch(pokemon.url)
+                .then(pokemon_url => pokemon_url.json())
+                .then(pokemon_data => {
+                        ALL_POKEMON.push(pokemon_data);
+                    })
+            })
+    })
+    .catch(pokemon_error => console.error(`🙀 ${pokemon_error}`));
 
-import { pokemonTypes_Effects } from "./pokemon_types.js";
-import { pokemonTypes_Names } from "./pokemon_types.js";
-
-import { show_DoubleType_Effects } from "./pokemon_types_effects.js";
-import { show_UniqueType_Effects } from "./pokemon_types_effects.js";
+export const pokemonTypes_container = document.getElementById("pokemon-types_container-id");
+export const pokemonTypes_buttons = document.querySelectorAll(".pokemon-types_container button");
 
 export const pokemonSprites_container = document.getElementById("pokemon-sprites_container-id");
     export const pokemonSprites_spritesContainer = document.getElementById("pokemon-sprites_spriteContainer-id");

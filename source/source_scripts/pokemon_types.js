@@ -1,18 +1,3 @@
-export let ALL_POKEMON = [];
-fetch(`https://pokeapi.co/api/v2/pokemon/?limit=2000`)
-    .then(pokemon_response => pokemon_response.json())
-    .then(pokemon_data => {
-        // console.log(pokemon_data);
-            pokemon_data.results.forEach(pokemon => {
-                fetch(pokemon.url)
-                .then(pokemon_url => pokemon_url.json())
-                .then(pokemon_data => {
-                        ALL_POKEMON.push(pokemon_data);
-                    })
-            })
-    })
-    .catch(pokemon_error => console.error(`🙀 ${pokemon_error}`));
-
 export const typeNormal_Effects = [     /* NORMAL */
     1/*Normal*/, 1/*Fire*/, 1/*Water*/, 
     1/*Electric*/, 1/*Grass*/, 1/*Ice*/, 
