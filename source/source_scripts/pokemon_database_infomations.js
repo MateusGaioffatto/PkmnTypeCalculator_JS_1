@@ -1,7 +1,31 @@
-import { ALL_POKEMON } from "./pokemon_types.js";
+import { ALL_POKEMON } from "./main.js";
 
-export const pokemonTypes_container = document.getElementById("pokemon-types_container-id");
-export const pokemonTypes_buttons = document.querySelectorAll(".pokemon-types_container button");
+import { pokemonTypes_container} from "./main.js";
+import { pokemonTypes_buttons } from "./main.js";
+
+import { pokemonTypes_Effects } from "./pokemon_types.js";
+import { pokemonTypes_Names } from "./pokemon_types.js";
+
+
+import { show_DoubleType_Effects } from "./pokemon_types_effects.js";
+import { show_UniqueType_Effects } from "./pokemon_types_effects.js";
+
+import { pokemonSprites_container } from "./main.js";
+    import { pokemonSprites_spritesContainer } from "./main.js";
+    import { selectedPokemon_spritesContainer } from "./main.js";
+        import { selectedPokemon_spritesContainer_img } from "./main.js";
+        import { selectedPokemon_spritesContainer_h2 } from "./main.js";
+
+import { pokemonTypesEffects_container } from "./main.js";
+import { pokemonTypesEffects_buttons } from "./main.js";
+import { pokemonTypesEffects_H1 } from "./main.js";
+    import { pokemonTypes_TakeSuperEffective_container } from "./main.js";
+    import { pokemonTypes_TakeNormalEffect_container } from "./main.js";
+    import { pokemonTypes_TakeNotVeryEffective_container } from "./main.js";
+    import { pokemonTypes_TakeNoEffect_container } from "./main.js";
+
+
+
 
 
 let clickCount_selected_types = 0;
