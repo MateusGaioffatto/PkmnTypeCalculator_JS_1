@@ -59,3 +59,7 @@ export const pokerogue_SinnohMegaEvolutions_passives = {
 export const pokerogue_UnovaMegaEvolutions_passives = {
   mega_audino: "Fairy Aura"
 };
+
+export const pokerogue_KalosMegaEvolutions_passives = {
+  mega_diancie: "Prism Armor"
+}
