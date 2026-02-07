@@ -16,7 +16,6 @@ export const pokerogue_KantoMegaEvolutions_passives = {
   mega_mewtwo_y: "Neuroforce"
 };
 
-
 export const pokerogue_JohtoMegaEvolutions_passives = {
   mega_steelix: "Sand Spit",
   mega_scizor: "Tough Claws",
@@ -25,3 +24,26 @@ export const pokerogue_JohtoMegaEvolutions_passives = {
   mega_houndoom: "Lightning Rod",
   mega_tyranitar: "Solid Rock"
 };
+
+export const pokerogue_HoennMegaEvolutions_passives = {
+  mega_sceptile: "Tinted Lens",
+  mega_blaziken: "Defiant",
+  mega_swampert: "Drizzle",
+  mega_gardevoir: "Psychic Surge",
+  mega_sableye: "Unnerve",
+  mega_mawile: "Intimidate",
+  mega_aggron: "Rocky Payload",
+  mega_medicham: "Mind's Eye",
+  mega_manectric: "Flash Fire",
+  mega_sharpedo: "Speed Boost",
+  mega_camerupt: "Stamina",
+  mega_altaria: "Fluffy",
+  mega_banette: "Shadow Shield",
+  mega_absol: "Sharpness",
+  mega_glalie: "Snow Warning",
+  mega_salamence: "Rock Head",
+  mega_metagross: "Full Metal Body",
+  mega_latias: "Prism Armor",
+  mega_latios: "Neuroforce",
+  mega_rayquaza: "Unnerve"
+}
