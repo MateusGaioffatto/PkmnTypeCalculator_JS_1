@@ -15,6 +15,7 @@ import { pokemonSprites_container } from "./main.js";
     import { selectedPokemon_spritesContainer } from "./main.js";
         import { selectedPokemon_spritesContainer_img } from "./main.js";
         import { selectedPokemon_spritesContainer_h2 } from "./main.js";
+        import { selectedPokemon_spritesContainer_pokemonPassive } from ".main.js";
 
 import { pokemonTypesEffects_container } from "./main.js";
 import { pokemonTypesEffects_buttons } from "./main.js";
@@ -75,7 +76,6 @@ pokemonTypes_buttons.forEach((type_button, type_button_selected) => {
             pokemonTypesEffects_H1.textContent = "";
 
             pokemonTypesEffects_container.style.display = "none";
-            pokemonSprites_spritesContainer.style.display = "none";
             pokemonSprites_spritesContainer.style.display = "none";
             selectedPokemon_spritesContainer.style.display = "none";
 
