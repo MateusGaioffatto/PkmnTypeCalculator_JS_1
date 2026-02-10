@@ -81,4 +81,4 @@ export const pokerogue_pokemonEggMoves_Unova  = {
   keldeo: ["Bouncy Bubble", "Thunderbolt", "Ice Beam", "Steam Eruption"],
   meloetta: ["Body Slam", "Psychic Noise", "Triple Arrows", "Torch Song"],
   genesect: ["Extreme Speed", "Shift Gear", "Behemoth Bash", "Tachyon Cutter"]
-}
+};

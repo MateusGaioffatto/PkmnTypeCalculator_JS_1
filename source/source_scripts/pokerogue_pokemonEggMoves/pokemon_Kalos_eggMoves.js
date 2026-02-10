@@ -37,4 +37,4 @@ export const pokerogue_pokemonEggMoves_Kalos = {
   hoopa: ["Photon Geyser", "Secret Sword", "Fiery Wrath", "Shell Smash"],
   volcanion: ["Hydro Steam", "Calm Mind", "Searing Shot", "Thunderclap"],
   eternal_floette: ["Mystical Fire", "Chloroblast", "Luster Purge", "Quiver Dance"]
-}
+};
