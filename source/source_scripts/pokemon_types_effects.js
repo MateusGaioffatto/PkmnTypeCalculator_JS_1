@@ -14,7 +14,12 @@ import { pokemonTypes_Names } from "./pokemon_types.js";
 
 
 
-    
+
+
+
+
+
+
 export function show_UniqueType_Effects(unique_type) { //type_name
     pokemonTypes_TakeSuperEffective_container.querySelectorAll('button').forEach(button => {button.remove();})
     pokemonTypes_TakeNormalEffect_container.querySelectorAll('button').forEach(button => {button.remove();})
