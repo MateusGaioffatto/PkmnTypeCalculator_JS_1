@@ -1,4 +1,4 @@
-export const pokerogue_pokemonPassives_Kanto = {
+export const pokerogue_pokemonKanto_passives = {
   bulbasaur: "Grassy Surge",
   ivysaur: "Grassy Surge",
   venusaur: "Grassy Surge",

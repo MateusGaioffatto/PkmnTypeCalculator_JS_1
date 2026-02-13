@@ -1,4 +1,6 @@
 import { ALL_POKEMON } from "./main.js";
+import { pokerogue_pokemonEggMoves_All } from "./pokerogue_pokemonEggMoves/pokemon_All_eggMoves.js";
+import { pokerogue_pokemonPassives_All } from "./pokerogue_pokemonPassives/pokemon_All_passives.js";
 
 import { pokemonTypes_container} from "./main.js";
 import { pokemonTypes_buttons } from "./main.js";
