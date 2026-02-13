@@ -36,6 +36,7 @@ export const pokerogue_pokemonEggMoves_Alola = {
   lycanroc_dusk: ["High Horsepower", "Tidy Up", "Ice Spinner", "Mighty Cleave"],
   
   wishiwashi: ["Heal Order", "Freeze Dry", "Water Shuriken", "Tail Glow"],
+  wishiwashi_school: ["Heal Order", "Freeze Dry", "Water Shuriken", "Tail Glow"],
 
   mareanie: ["Ceaseless Edge", "Barb Barrage", "Body Press", "Flip Turn"],
   toxapex: ["Ceaseless Edge", "Barb Barrage", "Body Press", "Flip Turn"],

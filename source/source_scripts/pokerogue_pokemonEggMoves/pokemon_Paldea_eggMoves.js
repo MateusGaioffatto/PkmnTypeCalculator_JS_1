@@ -1,4 +1,4 @@
-export const pokerogue_pokemonPaldea_eggMoves = {
+export const pokerogue_pokemonEggMoves_Paldea = {
   sprigatito: ["Fire Lash", "Triple Axel", "Sucker Punch", "Wicked Blow"],
   floragato: ["Fire Lash", "Triple Axel", "Sucker Punch", "Wicked Blow"],
   meowscarada: ["Fire Lash", "Triple Axel", "Sucker Punch", "Wicked Blow"],
