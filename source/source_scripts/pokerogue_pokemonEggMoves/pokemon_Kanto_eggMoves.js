@@ -161,11 +161,11 @@ export const pokerogue_pokemonEggMoves_Kanto = {
 
   exeggcute: ["Fickle Beam", "Apple Acid", "Heat Wave", "Lumina Crash"],
   exeggutor: ["Fickle Beam", "Apple Acid", "Heat Wave", "Lumina Crash"],
-  alolan_exeggutor: ["Fickle Beam", "Apple Acid", "Heat Wave", "Lumina Crash"],
+  alola_exeggutor: ["Fickle Beam", "Apple Acid", "Heat Wave", "Lumina Crash"],
 
   cubone: ["Head Smash", "Wood Hammer", "Shadow Sneak", "Bitter Blade"],
   marowak: ["Head Smash", "Wood Hammer", "Shadow Sneak", "Bitter Blade"],
-  alolan_marowak: ["Head Smash", "Wood Hammer", "Shadow Sneak", "Bitter Blade"],
+  alola_marowak: ["Head Smash", "Wood Hammer", "Shadow Sneak", "Bitter Blade"],
 
   lickitung: ["Crush Grip", "Fire Lash", "Slack Off", "Magical Torque"],
   lickilicky: ["Crush Grip", "Fire Lash", "Slack Off", "Magical Torque"],
