@@ -113,8 +113,8 @@ export const pokerogue_pokemonPaldea_passives = {
   iron_crown: "Sharpness",
   terapagos: "Shield Dust",
   pecharunt: "Toxic Chain",
-  paldea_tauros: "Stamina",
-  paldea_wooper: "Poison Touch",
+  tauros_paldea: "Stamina",
+  wooper_paldea: "Poison Touch",
   clodsire: "Thick Fat",
   bloodmoon_ursaluna: "Berserk"
 }

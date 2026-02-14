@@ -183,9 +183,9 @@ export const pokerogue_pokemonEggMoves_Paldea = {
 
   pecharunt: ["Take Heart", "Body Press", "Sappy Seed", "Astral Barrage"],
 
-  paldea_tauros: ["U Turn", "Sucker Punch", "Horn Leech", "Thunderous Kick"],
+  tauros_paldea: ["U Turn", "Sucker Punch", "Horn Leech", "Thunderous Kick"],
 
-  paldea_wooper: ["Stone Axe", "Recover", "Baneful Bunker", "Barb Barrage"],
+  wooper_paldea: ["Stone Axe", "Recover", "Baneful Bunker", "Barb Barrage"],
   clodsire: ["Stone Axe", "Recover", "Baneful Bunker", "Barb Barrage"],
 
   bloodmoon_ursaluna: ["Nasty Plot", "Rock Polish", "Sandsear Storm", "Boomburst"]
