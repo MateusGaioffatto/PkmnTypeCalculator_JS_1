@@ -2,17 +2,17 @@ export const pokerogue_pokemonEggMoves_Galar = {
   grookey: ["Rock Slide", "Play Rough", "Grassy Glide", "Clangorous Soul"],
   thwackey: ["Rock Slide", "Play Rough", "Grassy Glide", "Clangorous Soul"],
   rillaboom: ["Rock Slide", "Play Rough", "Grassy Glide", "Clangorous Soul"],
-  gigantamax_rillaboom: ["Rock Slide", "Play Rough", "Grassy Glide", "Clangorous Soul"],
+  rillaboom_gmax: ["Rock Slide", "Play Rough", "Grassy Glide", "Clangorous Soul"],
 
   scorbunny: ["Extreme Speed", "High Jump Kick", "Supercell Slam", "Triple Axel"],
   raboot: ["Extreme Speed", "High Jump Kick", "Supercell Slam", "Triple Axel"],
   cinderace: ["Extreme Speed", "High Jump Kick", "Supercell Slam", "Triple Axel"],
-  gigantamax_cinderace: ["Extreme Speed", "High Jump Kick", "Supercell Slam", "Triple Axel"],
+  cinderace_gmax: ["Extreme Speed", "High Jump Kick", "Supercell Slam", "Triple Axel"],
 
   sobble: ["Aeroblast", "Frost Breath", "Energy Ball", "Nasty Plot"],
   drizzile: ["Aeroblast", "Frost Breath", "Energy Ball", "Nasty Plot"],
   inteleon: ["Aeroblast", "Frost Breath", "Energy Ball", "Nasty Plot"],
-  gigantamax_inteleon: ["Aeroblast", "Frost Breath", "Energy Ball", "Nasty Plot"],
+  inteleon_gmax: ["Aeroblast", "Frost Breath", "Energy Ball", "Nasty Plot"],
 
   skwovet: ["Sucker Punch", "Slack Off", "Coil", "Population Bomb"],
   greedent: ["Sucker Punch", "Slack Off", "Coil", "Population Bomb"],
@@ -20,12 +20,12 @@ export const pokerogue_pokemonEggMoves_Galar = {
   rookidee: ["Roost", "Body Press", "Kings Shield", "Behemoth Bash"],
   corvisquire: ["Roost", "Body Press", "Kings Shield", "Behemoth Bash"],
   corviknight: ["Roost", "Body Press", "Kings Shield", "Behemoth Bash"],
-  gigantamax_corviknight: ["Roost", "Body Press", "Kings Shield", "Behemoth Bash"],
+  corviknight_gmax: ["Roost", "Body Press", "Kings Shield", "Behemoth Bash"],
 
   blipbug: ["Heal Order", "Luster Purge", "Sleep Powder", "Tail Glow"],
   dottler: ["Heal Order", "Luster Purge", "Sleep Powder", "Tail Glow"],
   orbeetle: ["Heal Order", "Luster Purge", "Sleep Powder", "Tail Glow"],
-  gigantamax_orbeetle: ["Heal Order", "Luster Purge", "Sleep Powder", "Tail Glow"],
+  orbeetle_gmax: ["Heal Order", "Luster Purge", "Sleep Powder", "Tail Glow"],
 
   nickit: ["Baddy Bad", "Mystical Fire", "Sparkly Swirl", "Make It Rain"],
   thievul: ["Baddy Bad", "Mystical Fire", "Sparkly Swirl", "Make It Rain"],
@@ -38,7 +38,7 @@ export const pokerogue_pokemonEggMoves_Galar = {
 
   chewtle: ["Ice Fang", "Psychic Fangs", "Shell Smash", "Mighty Cleave"],
   drednaw: ["Ice Fang", "Psychic Fangs", "Shell Smash", "Mighty Cleave"],
-  gigantamax_drednaw: ["Ice Fang", "Psychic Fangs", "Shell Smash", "Mighty Cleave"],
+  drednaw_gmax: ["Ice Fang", "Psychic Fangs", "Shell Smash", "Mighty Cleave"],
 
   yamper: ["Ice Fang", "Swords Dance", "Thunder Fang", "Bolt Strike"],
   boltund: ["Ice Fang", "Swords Dance", "Thunder Fang", "Bolt Strike"],
@@ -46,17 +46,17 @@ export const pokerogue_pokemonEggMoves_Galar = {
   rolycoly: ["Blazing Torque", "Burning Bulwark", "Recover", "Diamond Storm"],
   carkol: ["Blazing Torque", "Burning Bulwark", "Recover", "Diamond Storm"],
   coalossal: ["Blazing Torque", "Burning Bulwark", "Recover", "Diamond Storm"],
-  gigantamax_coalossal: ["Blazing Torque", "Burning Bulwark", "Recover", "Diamond Storm"],
+  coalossal_gmax: ["Blazing Torque", "Burning Bulwark", "Recover", "Diamond Storm"],
 
   applin: ["Core Enforcer", "Combat Torque", "Sappy Seed", "Matcha Gotcha"],
   flapple: ["Core Enforcer", "Combat Torque", "Sappy Seed", "Matcha Gotcha"],
-  gigantamax_flapple: ["Core Enforcer", "Combat Torque", "Sappy Seed", "Matcha Gotcha"],
+  flapple_gmax: ["Core Enforcer", "Combat Torque", "Sappy Seed", "Matcha Gotcha"],
   appletun: ["Core Enforcer", "Combat Torque", "Sappy Seed", "Matcha Gotcha"],
-  gigantamax_appletun: ["Core Enforcer", "Combat Torque", "Sappy Seed", "Matcha Gotcha"],
+  appletun_gmax: ["Core Enforcer", "Combat Torque", "Sappy Seed", "Matcha Gotcha"],
 
   silicobra: ["Shore Up", "Shed Tail", "Mountain Gale", "Thousand Arrows"],
   sandaconda: ["Shore Up", "Shed Tail", "Mountain Gale", "Thousand Arrows"],
-  gigantamax_sandaconda: ["Shore Up", "Shed Tail", "Mountain Gale", "Thousand Arrows"],
+  sandaconda_gmax: ["Shore Up", "Shed Tail", "Mountain Gale", "Thousand Arrows"],
   
   cramorant: ["Apple Acid", "Surf", "Bolt Beak", "Oblivion Wing"],
 
@@ -66,11 +66,11 @@ export const pokerogue_pokemonEggMoves_Galar = {
   toxel: ["Buzzy Buzz", "Bug Buzz", "Sparkling Aria", "Torch Song"],
   amped_toxtricity: ["Buzzy Buzz", "Bug Buzz", "Sparkling Aria", "Torch Song"],
   lowkey_toxtricity: ["Buzzy Buzz", "Bug Buzz", "Sparkling Aria", "Torch Song"],
-  gigantamax_toxtricity: ["Buzzy Buzz", "Bug Buzz", "Sparkling Aria", "Torch Song"],
+  toxtricity_gmax: ["Buzzy Buzz", "Bug Buzz", "Sparkling Aria", "Torch Song"],
 
   sizzlipede: ["Burning Bulwark", "Zing Zap", "First Impression", "Bitter Blade"],
   centiskorch: ["Burning Bulwark", "Zing Zap", "First Impression", "Bitter Blade"],
-  gigantamax_centiskorch: ["Burning Bulwark", "Zing Zap", "First Impression", "Bitter Blade"],
+  centiskorch_gmax: ["Burning Bulwark", "Zing Zap", "First Impression", "Bitter Blade"],
 
   clobbopus: ["Storm Throw", "Jet Punch", "Mach Punch", "Surging Strikes"],
   grapploct: ["Storm Throw", "Jet Punch", "Mach Punch", "Surging Strikes"],
@@ -81,16 +81,16 @@ export const pokerogue_pokemonEggMoves_Galar = {
   hatenna: ["Recover", "Moonblast", "Buzzy Buzz", "Torch Song"],
   hattrem: ["Recover", "Moonblast", "Buzzy Buzz", "Torch Song"],
   hatterene: ["Recover", "Moonblast", "Buzzy Buzz", "Torch Song"],
-  gigantamax_hatterene: ["Recover", "Moonblast", "Buzzy Buzz", "Torch Song"],
+  hatterene_gmax: ["Recover", "Moonblast", "Buzzy Buzz", "Torch Song"],
 
   impidimp: ["Slack Off", "Parting Shot", "Octolock", "Wicked Blow"],
   morgrem: ["Slack Off", "Parting Shot", "Octolock", "Wicked Blow"],
   grimmsnarl: ["Slack Off", "Parting Shot", "Octolock", "Wicked Blow"],
-  gigantamax_grimmsnarl: ["Slack Off", "Parting Shot", "Octolock", "Wicked Blow"],
+  grimmsnarl_gmax: ["Slack Off", "Parting Shot", "Octolock", "Wicked Blow"],
   
   milcery: ["Moonblast", "Chilly Reception", "Earth Power", "Geomancy"],
   alcremie: ["Moonblast", "Chilly Reception", "Earth Power", "Geomancy"],
-  gigantamax_alcremie: ["Moonblast", "Chilly Reception", "Earth Power", "Geomancy"],
+  alcremie_gmax: ["Moonblast", "Chilly Reception", "Earth Power", "Geomancy"],
 
   falinks: ["Baton Pass", "Power Trip", "Sacred Sword", "Heal Order"],
   
@@ -109,7 +109,7 @@ export const pokerogue_pokemonEggMoves_Galar = {
 
   cufant: ["Liquidation", "Curse", "Combat Torque", "Gigaton Hammer"],
   copperajah: ["Liquidation", "Curse", "Combat Torque", "Gigaton Hammer"],
-  gigantamax_copperajah: ["Liquidation", "Curse", "Combat Torque", "Gigaton Hammer"],
+  copperajah_gmax: ["Liquidation", "Curse", "Combat Torque", "Gigaton Hammer"],
 
   dracozolt: ["Triple Axel", "Gunk Shot", "Fire Lash", "Dragon Dance"],
   arctozolt: ["Mountain Gale", "Aqua Step", "High Horsepower", "Shift Gear"],
@@ -117,7 +117,7 @@ export const pokerogue_pokemonEggMoves_Galar = {
   arctovish: ["Ice Fang", "Thunder Fang", "High Horsepower", "Shift Gear"],
 
   duraludon: ["Heat Wave", "Body Press", "Thunderclap", "Core Enforcer"],
-  gigantamax_duraludon: ["Heat Wave", "Body Press", "Thunderclap", "Core Enforcer"],
+  duraludon_gmax: ["Heat Wave", "Body Press", "Thunderclap", "Core Enforcer"],
 
   dreepy: ["Shadow Bone", "Power Up Punch", "Fire Lash", "Dire Claw"],
   drakloak: ["Shadow Bone", "Power Up Punch", "Fire Lash", "Dire Claw"],
@@ -128,7 +128,7 @@ export const pokerogue_pokemonEggMoves_Galar = {
   zamazenta: ["Bulk Up", "Body Press", "Power Trip", "Slack Off"],
 
   eternatus: ["Body Press", "Nasty Plot", "Malignant Chain", "Dragon Energy"],
-  gigantamax_eternatus: ["Body Press", "Nasty Plot", "Malignant Chain", "Dragon Energy"],
+  eternatus_gmax: ["Body Press", "Nasty Plot", "Malignant Chain", "Dragon Energy"],
 
   kubfu: ["Meteor Mash", "Drain Punch", "Jet Punch", "Dragon Dance"],
   single_strike_urshifu: ["Meteor Mash", "Drain Punch", "Jet Punch", "Dragon Dance"],
