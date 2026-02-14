@@ -49,7 +49,7 @@ export const pokerogue_pokemonEggMoves_Johto = {
   mareep: ["Flamethrower", "Parabolic Charge", "Core Enforcer", "Tail Glow"],
   flaaffy: ["Flamethrower", "Parabolic Charge", "Core Enforcer", "Tail Glow"],
   ampharos: ["Flamethrower", "Parabolic Charge", "Core Enforcer", "Tail Glow"],
-  mega_ampharos: ["Flamethrower", "Parabolic Charge", "Core Enforcer", "Tail Glow"],
+  ampharos_mega: ["Flamethrower", "Parabolic Charge", "Core Enforcer", "Tail Glow"],
 
   hoppip: ["Floaty Fall", "Strength Sap", "Sappy Seed", "Spore"],
   skiploom: ["Floaty Fall", "Strength Sap", "Sappy Seed", "Spore"],
@@ -97,7 +97,7 @@ export const pokerogue_pokemonEggMoves_Johto = {
   shuckle: ["Stuff Cheeks", "Heal Order", "Body Press", "Salt Cure"],
 
   heracross: ["Rock Blast", "Storm Throw", "Icicle Spear", "Scale Shot"],
-  mega_heracross: ["Rock Blast", "Storm Throw", "Icicle Spear", "Scale Shot"],
+  heracross_mega: ["Rock Blast", "Storm Throw", "Icicle Spear", "Scale Shot"],
 
   sneasel: ["Dire Claw", "Darkest Lariat", "Triple Axel", "Close Combat"],
   weavile: ["Dire Claw", "Darkest Lariat", "Triple Axel", "Close Combat"],
@@ -126,7 +126,7 @@ export const pokerogue_pokemonEggMoves_Johto = {
 
   houndour: ["Fiery Wrath", "Thunderbolt", "Moonblast", "Armor Cannon"],
   houndoom: ["Fiery Wrath", "Thunderbolt", "Moonblast", "Armor Cannon"],
-  mega_houndoom: ["Fiery Wrath", "Thunderbolt", "Moonblast", "Armor Cannon"],
+  houndoom_mega: ["Fiery Wrath", "Thunderbolt", "Moonblast", "Armor Cannon"],
 
   phanpy: ["Shore Up", "Swords Dance", "Mountain Gale", "Collision Course"],
   donphan: ["Shore Up", "Swords Dance", "Mountain Gale", "Collision Course"],
@@ -163,7 +163,7 @@ export const pokerogue_pokemonEggMoves_Johto = {
   larvitar: ["Dragon Dance", "Mountain Gale", "Shore Up", "Diamond Storm"],
   pupitar: ["Dragon Dance", "Mountain Gale", "Shore Up", "Diamond Storm"],
   tyranitar: ["Dragon Dance", "Mountain Gale", "Shore Up", "Diamond Storm"],
-  mega_tyranitar: ["Dragon Dance", "Mountain Gale", "Shore Up", "Diamond Storm"],
+  tyranitar_mega: ["Dragon Dance", "Mountain Gale", "Shore Up", "Diamond Storm"],
 
   lugia: ["Nasty Plot", "Lumina Crash", "Aura Sphere", "Oblivion Wing"],
   
