@@ -148,39 +148,39 @@ export const pokerogue_pokemonEggMoves_Galar = {
 
   enamorus: ["Aeroblast", "Thousand Arrows", "Stored Power", "Fleur Cannon"],
 
-  galar_meowth: ["Liquidation", "Horn Leech", "Bullet Punch", "Behemoth Bash"],
+  meowth_galar: ["Liquidation", "Horn Leech", "Bullet Punch", "Behemoth Bash"],
   perrserker: ["Liquidation", "Horn Leech", "Bullet Punch", "Behemoth Bash"],
 
-  galar_ponyta: ["Magical Torque", "Extreme Speed", "Flare Blitz", "Photon Geyser"],
-  galar_rapidash: ["Magical Torque", "Extreme Speed", "Flare Blitz", "Photon Geyser"],
+  ponyta_galar: ["Magical Torque", "Extreme Speed", "Flare Blitz", "Photon Geyser"],
+  rapidash_galar: ["Magical Torque", "Extreme Speed", "Flare Blitz", "Photon Geyser"],
 
-  galar_slowpoke: ["Shed Tail", "Baddy Bad", "Moonblast", "Photon Geyser"],
-  galar_slowbro: ["Shed Tail", "Baddy Bad", "Moonblast", "Photon Geyser"],
-  galar_slowking: ["Shed Tail", "Baddy Bad", "Moonblast", "Photon Geyser"],
+  slowpoke_galar: ["Shed Tail", "Baddy Bad", "Moonblast", "Photon Geyser"],
+  slowbro_galar: ["Shed Tail", "Baddy Bad", "Moonblast", "Photon Geyser"],
+  slowking_galar: ["Shed Tail", "Baddy Bad", "Moonblast", "Photon Geyser"],
 
-  galar_farfetchd: ["Roost", "Sacred Sword", "Kings Shield", "Behemoth Blade"],
+  farfetchd_galar: ["Roost", "Sacred Sword", "Kings Shield", "Behemoth Blade"],
   sirfetchd: ["Roost", "Sacred Sword", "Kings Shield", "Behemoth Blade"],
 
-  galar_articuno: ["Secret Sword", "Night Daze", "Ice Beam", "Oblivion Wing"],
+  articuno_galar: ["Secret Sword", "Night Daze", "Ice Beam", "Oblivion Wing"],
 
-  galar_zapdos: ["Poison Jab", "Floaty Fall", "Roost", "Bolt Beak"],
+  zapdos_galar: ["Poison Jab", "Floaty Fall", "Roost", "Bolt Beak"],
 
-  galar_moltres: ["Roost", "Sludge Bomb", "Flamethrower", "Oblivion Wing"],
+  moltres_galar: ["Roost", "Sludge Bomb", "Flamethrower", "Oblivion Wing"],
 
-  galar_corsola: ["Shell Smash", "Aura Sphere", "Infernal Parade", "Astral Barrage"],
+  corsola_galar: ["Shell Smash", "Aura Sphere", "Infernal Parade", "Astral Barrage"],
   cursola: ["Shell Smash", "Aura Sphere", "Infernal Parade", "Astral Barrage"],
 
-  galar_zigzagoon: ["Ceaseless Edge", "Facade", "Parting Shot", "Extreme Speed"],
-  galar_linoone: ["Ceaseless Edge", "Facade", "Parting Shot", "Extreme Speed"],
+  zigzagoon_galar: ["Ceaseless Edge", "Facade", "Parting Shot", "Extreme Speed"],
+  linoone_galar: ["Ceaseless Edge", "Facade", "Parting Shot", "Extreme Speed"],
   obstagoon: ["Ceaseless Edge", "Facade", "Parting Shot", "Extreme Speed"],
 
-  galar_darumaka: ["Ice Spinner", "Zing Zap", "Drain Punch", "Pyro Ball"],
-  galar_darmanitan: ["Ice Spinner", "Zing Zap", "Drain Punch", "Pyro Ball"],
+  darumaka_galar: ["Ice Spinner", "Zing Zap", "Drain Punch", "Pyro Ball"],
+  darmanitan_galar: ["Ice Spinner", "Zing Zap", "Drain Punch", "Pyro Ball"],
 
-  galar_yamask: ["Strength Sap", "Dire Claw", "Thousand Waves", "Spectral Thief"],
+  yamask_galar: ["Strength Sap", "Dire Claw", "Thousand Waves", "Spectral Thief"],
   runerigus: ["Strength Sap", "Dire Claw", "Thousand Waves", "Spectral Thief"],
 
-  galar_stunfisk: ["Spiky Shield", "Thousand Arrows", "Strength Sap", "Double Iron Bash"],
+  stunfisk_galar: ["Spiky Shield", "Thousand Arrows", "Strength Sap", "Double Iron Bash"],
 
   hisui_growlithe: ["Wave Crash", "Head Smash", "Volt Tackle", "Dragon Dance"],
   hisui_arcanine: ["Wave Crash", "Head Smash", "Volt Tackle", "Dragon Dance"],

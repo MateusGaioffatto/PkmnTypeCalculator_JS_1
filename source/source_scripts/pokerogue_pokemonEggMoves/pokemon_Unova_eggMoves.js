@@ -92,9 +92,9 @@ export const pokerogue_pokemonEggMoves_Unova  = {
   krookodile: ["Dire Claw", "Sucker Punch", "Fire Lash", "Headlong Rush"],
 
   darumaka: ["Drain Punch", "Zippy Zap", "Headlong Rush", "Pyro Ball"],
-  galarian_darumaka: ["Drain Punch", "Zippy Zap", "Headlong Rush", "Pyro Ball"],
+  darumaka_galar: ["Drain Punch", "Zippy Zap", "Headlong Rush", "Pyro Ball"],
   darmanitan: ["Drain Punch", "Zippy Zap", "Headlong Rush", "Pyro Ball"],
-  galarian_darmanitan: ["Drain Punch", "Zippy Zap", "Headlong Rush", "Pyro Ball"],
+  darmanitan_galar: ["Drain Punch", "Zippy Zap", "Headlong Rush", "Pyro Ball"],
 
   maractus: ["Earth Power", "Sizzly Slide", "Fiery Dance", "Quiver Dance"],
 
@@ -107,7 +107,7 @@ export const pokerogue_pokemonEggMoves_Unova  = {
   sigilyph: ["Moonblast", "Psycho Shift", "Esper Wing", "Oblivion Wing"],
 
   yamask: ["Strength Sap", "Glare", "Aura Sphere", "Astral Barrage"],
-  galarian_yamask: ["Strength Sap", "Glare", "Aura Sphere", "Astral Barrage"],
+  yamask_galar: ["Strength Sap", "Glare", "Aura Sphere", "Astral Barrage"],
   runerigus: ["Strength Sap", "Glare", "Aura Sphere", "Astral Barrage"],
   cofagrigus: ["Strength Sap", "Glare", "Aura Sphere", "Astral Barrage"],
 
@@ -194,7 +194,7 @@ export const pokerogue_pokemonEggMoves_Unova  = {
   accelgor: ["Power Gem", "Nasty Plot", "Earth Power", "Steam Eruption"],
 
   stunfisk: ["Thunderclap", "Sandsear Storm", "Strength Sap", "Thunder Cage"],
-  galarian_stunfisk: ["Thunderclap", "Sandsear Storm", "Strength Sap", "Thunder Cage"],
+  stunfisk_galar: ["Thunderclap", "Sandsear Storm", "Strength Sap", "Thunder Cage"],
 
   mienfoo: ["Gunk Shot", "Supercell Slam", "Mountain Gale", "Wicked Blow"],
   mienshao: ["Gunk Shot", "Supercell Slam", "Mountain Gale", "Wicked Blow"],

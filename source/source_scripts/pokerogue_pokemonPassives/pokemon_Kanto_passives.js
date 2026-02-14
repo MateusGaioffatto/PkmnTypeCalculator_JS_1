@@ -125,7 +125,7 @@ export const pokerogue_pokemonKanto_passives = {
   lickilicky: "Cheek Pouch",
   koffing: "White Smoke",
   weezing: "Parental Bond",
-  galar_weezing: "Parental Bond",
+  weezing_galar: "Parental Bond",
   rhyhorn: "Solid Rock",
   rhydon: "Solid Rock",
   rhyperior: "Filter",

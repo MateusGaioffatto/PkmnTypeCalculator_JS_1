@@ -172,7 +172,7 @@ export const pokerogue_pokemonEggMoves_Kanto = {
 
   koffing: ["Scald", "Recover", "Body Press", "Malignant Chain"],
   weezing: ["Scald", "Recover", "Body Press", "Malignant Chain"],
-  galarian_weezing: ["Scald", "Recover", "Body Press", "Malignant Chain"],
+  weezing_galar: ["Scald", "Recover", "Body Press", "Malignant Chain"],
 
   rhyhorn: ["Shore Up", "Ice Hammer", "Accelerock", "Head Smash"],
   rhydon: ["Shore Up", "Ice Hammer", "Accelerock", "Head Smash"],

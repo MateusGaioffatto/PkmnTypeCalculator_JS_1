@@ -53,7 +53,7 @@ export const pokerogue_pokemonSinnoh_passives = {
   sudowoodo: "Sap Sipper",
   mime_jr: "Prankster",
   mr_mime: "Prankster",
-  galar_mr_mime: "Prankster",
+  mr_mime_galar: "Prankster",
   mr_rime: "Prankster",
   happiny: "Hospitality",
   chansey: "Friend Guard",
