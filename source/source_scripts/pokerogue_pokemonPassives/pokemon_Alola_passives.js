@@ -50,7 +50,7 @@ export const pokerogue_pokemonAlola_passives = {
   sandygast: "Sand Spit",
   palossand: "Sand Spit",
   pyukumuku: "Purifying Salt",
-  type_null: "Clear Body",
+  type_null: "Clear Body", // <= WITHOUT PASSIVE
   silvally: "Adaptability",
   minior: "Sturdy",
   komala: "Guts",

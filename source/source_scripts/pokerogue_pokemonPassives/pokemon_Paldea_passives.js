@@ -9,7 +9,8 @@ export const pokerogue_pokemonPaldea_passives = {
   quaxwell: "Opportunist",
   quaquaval: "Opportunist",
   lechonk: "Simple",
-  oinkologne: "Simple",
+  oinkologne_male: "Simple", // <= WITHOUT PASSIVE
+  oinkologne_female: "Simple", // <= WITHOUT PASSIVE
   tarountula: "Honey Gather",
   spidops: "Honey Gather",
   nymble: "Technician",
@@ -18,7 +19,8 @@ export const pokerogue_pokemonPaldea_passives = {
   pawmo: "Transistor",
   pawmot: "Transistor",
   tandemaus: "Friend Guard",
-  maushold: "Scrappy",
+  maushold_family_of_four: "Scrappy", // <= WITHOUT PASSIVE
+  maushold_family_of_three: "Scrappy", // <= WITHOUT PASSIVE
   fidough: "Water Absorb",
   dachsbun: "Water Absorb",
   smoliv: "Ripen",

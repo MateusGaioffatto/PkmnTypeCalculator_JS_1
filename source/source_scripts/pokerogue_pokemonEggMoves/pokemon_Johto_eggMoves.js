@@ -82,8 +82,8 @@ export const pokerogue_pokemonEggMoves_Johto = {
   forretress: ["Metal Burst", "Recover", "Leech Life", "Spin Out"],
 
   dunsparce: ["Wicked Torque", "Magical Torque", "Blazing Torque", "Extreme Speed"],
-  dudunsparce_two_segment_form: ["Wicked Torque", "Magical Torque", "Blazing Torque", "Extreme Speed"],
-  dudunsparce_three_segment_form: ["Wicked Torque", "Magical Torque", "Blazing Torque", "Extreme Speed"],
+  dudunsparce_two_segment: ["Wicked Torque", "Magical Torque", "Blazing Torque", "Extreme Speed"],
+  dudunsparce_three_segment: ["Wicked Torque", "Magical Torque", "Blazing Torque", "Extreme Speed"],
 
   gligar: ["Fly", "Thousand Waves", "Baneful Bunker", "Mighty Cleave"],
   gliscor: ["Fly", "Thousand Waves", "Baneful Bunker", "Mighty Cleave"],

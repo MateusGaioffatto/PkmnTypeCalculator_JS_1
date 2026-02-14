@@ -159,7 +159,7 @@ export const pokerogue_pokemonKanto_passives = {
   sylveon: "Competitive",
   porygon: "Transistor",
   porygon2: "Transistor",
-  porygon_z: "Protean",
+  porygon_z: "Protean", // <= WITHOUT PASSIVE
   omanyte: "Sturdy",
   omastar: "Sturdy",
   kabuto: "Tough Claws",

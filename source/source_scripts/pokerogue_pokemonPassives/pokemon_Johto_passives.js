@@ -58,7 +58,8 @@ export const pokerogue_pokemonJohto_passives = {
     pineco: "Rough Skin",
     forretress: "Iron Barbs",
     dunsparce: "Unaware",
-    dudunsparce: "Unaware",
+    dudunsparce_two_segment: "Unaware", // <= WITHOUT PASSIVE
+    dudunsparce_three_segment: "Unaware", // <= WITHOUT PASSIVE
     gligar: "Poison Touch",
     gliscor: "Toxic Boost",
     snubbull: "Pixilate",

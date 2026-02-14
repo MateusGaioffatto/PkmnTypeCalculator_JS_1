@@ -202,7 +202,7 @@ function create_PokemonSprites_Images(first_type_selected, second_type_selected)
 
 function create_SelectedPokemon_MoreInformation(pokemon_name, pokemon_sprite_front_default) {
     selectedPokemon_spritesContainer_h2.textContent = pokemon_name.charAt(0).toUpperCase() + pokemon_name.slice(1);
-    selectedPokemon_spritesContainer_pokemonPassive.textContent = pokerogue_pokemonPassives_All[pokemon_name];
+    selectedPokemon_spritesContainer_pokemonPassive.textContent = pokerogue_pokemonPassives_All[pokemon_name.replaceAll("-", "_")];
     selectedPokemon_spritesContainer.style.display = "flex";
     selectedPokemon_spritesContainer_img.src = pokemon_sprite_front_default;
     pokemonSprites_spritesContainer.style.display = "none";
