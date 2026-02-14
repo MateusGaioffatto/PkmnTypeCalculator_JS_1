@@ -2,37 +2,37 @@ export const pokerogue_pokemonEggMoves_Kanto = {
   bulbasaur: ["Sappy Seed", "Malignant Chain", "Earth Power", "Matcha Gotcha"],
   ivysaur: ["Sappy Seed", "Malignant Chain", "Earth Power", "Matcha Gotcha"],
   venusaur: ["Sappy Seed", "Malignant Chain", "Earth Power", "Matcha Gotcha"],
-  mega_venusaur: ["Sappy Seed", "Malignant Chain", "Earth Power", "Matcha Gotcha"],
-  gigantamax_venusaur: ["Sappy Seed", "Malignant Chain", "Earth Power", "Matcha Gotcha"],
+  venusaur_mega: ["Sappy Seed", "Malignant Chain", "Earth Power", "Matcha Gotcha"],
+  venusaur_gmax: ["Sappy Seed", "Malignant Chain", "Earth Power", "Matcha Gotcha"],
 
 
   charmander: ["Dragon Dance", "Aeroblast", "Earth Power", "Bitter Blade"],
   charmeleon: ["Dragon Dance", "Aeroblast", "Earth Power", "Bitter Blade"],
   charizard: ["Dragon Dance", "Aeroblast", "Earth Power", "Bitter Blade"],
-  mega_charizard_x: ["Dragon Dance", "Aeroblast", "Earth Power", "Bitter Blade"],
-  mega_charizard_y: ["Dragon Dance", "Aeroblast", "Earth Power", "Bitter Blade"],
-  gigantamax_charizard: ["Dragon Dance", "Aeroblast", "Earth Power", "Bitter Blade"],
+  charizard_mega_x: ["Dragon Dance", "Aeroblast", "Earth Power", "Bitter Blade"],
+  charizard_mega_y: ["Dragon Dance", "Aeroblast", "Earth Power", "Bitter Blade"],
+  charizard_gmax: ["Dragon Dance", "Aeroblast", "Earth Power", "Bitter Blade"],
 
   squirtle: ["Freeze Dry", "Armor Cannon", "Shore Up", "Origin Pulse"],
   wartortle: ["Freeze Dry", "Armor Cannon", "Shore Up", "Origin Pulse"],
   blastoise: ["Freeze Dry", "Armor Cannon", "Shore Up", "Origin Pulse"],
-  mega_blastoise: ["Freeze Dry", "Armor Cannon", "Shore Up", "Origin Pulse"],
-  gigantamax_blastoise: ["Freeze Dry", "Armor Cannon", "Shore Up", "Origin Pulse"],
+  blastoise_mega: ["Freeze Dry", "Armor Cannon", "Shore Up", "Origin Pulse"],
+  blastoise_gmax: ["Freeze Dry", "Armor Cannon", "Shore Up", "Origin Pulse"],
 
   caterpie: ["Sandsear Storm", "Silk Trap", "Twin Beam", "Bleakwind Storm"],
   metapod: ["Sandsear Storm", "Silk Trap", "Twin Beam", "Bleakwind Storm"],
   butterfree: ["Sandsear Storm", "Silk Trap", "Twin Beam", "Bleakwind Storm"],
-  gigamax_butterfree: ["Sandsear Storm", "Silk Trap", "Twin Beam", "Bleakwind Storm"],
+  butterfree_gmax: ["Sandsear Storm", "Silk Trap", "Twin Beam", "Bleakwind Storm"],
 
   weedle: ["Thousand Arrows", "Noxious Torque", "Attack Order", "Victory Dance"],
   kakuna: ["Thousand Arrows", "Noxious Torque", "Attack Order", "Victory Dance"],
   beedrill: ["Thousand Arrows", "Noxious Torque", "Attack Order", "Victory Dance"],
-  mega_beedrill: ["Thousand Arrows", "Noxious Torque", "Attack Order", "Victory Dance"],
+  beedrill_mega: ["Thousand Arrows", "Noxious Torque", "Attack Order", "Victory Dance"],
 
   pidgey: ["Bleakwind Storm", "Focus Blast", "Calm Mind", "Boomburst"],
   pidgeotto: ["Bleakwind Storm", "Focus Blast", "Calm Mind", "Boomburst"],
   pidgeot: ["Bleakwind Storm", "Focus Blast", "Calm Mind", "Boomburst"],
-  mega_pidgeot: ["Bleakwind Storm", "Focus Blast", "Calm Mind", "Boomburst"],
+  pidgeot_mega: ["Bleakwind Storm", "Focus Blast", "Calm Mind", "Boomburst"],
 
   rattata: ["Hyper Fang", "Psychic Fangs", "Fire Fang", "Extreme Speed"],
   raticate: ["Hyper Fang", "Psychic Fangs", "Fire Fang", "Extreme Speed"],
@@ -96,12 +96,12 @@ export const pokerogue_pokemonEggMoves_Kanto = {
   abra: ["Aura Sphere", "Baddy Bad", "Ice Beam", "Psystrike"],
   kadabra: ["Aura Sphere", "Baddy Bad", "Ice Beam", "Psystrike"],
   alakazam: ["Aura Sphere", "Baddy Bad", "Ice Beam", "Psystrike"],
-  mega_alakazam: ["Aura Sphere", "Baddy Bad", "Ice Beam", "Psystrike"],
+  alakazam_mega: ["Aura Sphere", "Baddy Bad", "Ice Beam", "Psystrike"],
 
   machop: ["Drain Punch", "Meteor Mash", "Mountain Gale", "Fissure"],
   machoke: ["Drain Punch", "Meteor Mash", "Mountain Gale", "Fissure"],
   machamp: ["Drain Punch", "Meteor Mash", "Mountain Gale", "Fissure"],
-  gigantamax_machamp: ["Drain Punch", "Meteor Mash", "Mountain Gale", "Fissure"],
+  machamp_gmax: ["Drain Punch", "Meteor Mash", "Mountain Gale", "Fissure"],
 
   bellsprout: ["Solar Blade", "Strength Sap", "Fire Lash", "Victory Dance"],
   weepinbell: ["Solar Blade", "Strength Sap", "Fire Lash", "Victory Dance"],
@@ -119,7 +119,7 @@ export const pokerogue_pokemonEggMoves_Kanto = {
 
   slowpoke: ["Splishy Splash", "Frost Breath", "Shed Tail", "Mystical Power"],
   slowbro: ["Splishy Splash", "Frost Breath", "Shed Tail", "Mystical Power"],
-  mega_slowbro: ["Splishy Splash", "Frost Breath", "Shed Tail", "Mystical Power"],
+  slowbro_mega: ["Splishy Splash", "Frost Breath", "Shed Tail", "Mystical Power"],
   slowking: ["Splishy Splash", "Frost Breath", "Shed Tail", "Mystical Power"],
 
   magnemite: ["Parabolic Charge", "Flamethrower", "Thunderclap", "Ice Beam"],
@@ -143,18 +143,18 @@ export const pokerogue_pokemonEggMoves_Kanto = {
   gastly: ["Malignant Chain", "Aura Sphere", "Parting Shot", "Dark Void"],
   haunter: ["Malignant Chain", "Aura Sphere", "Parting Shot", "Dark Void"],
   gengar: ["Malignant Chain", "Aura Sphere", "Parting Shot", "Dark Void"],
-  mega_gengar: ["Malignant Chain", "Aura Sphere", "Parting Shot", "Dark Void"],
+  gengar_mega: ["Malignant Chain", "Aura Sphere", "Parting Shot", "Dark Void"],
 
   onix: ["Shore Up", "Thousand Waves", "Coil", "Diamond Storm"],
   steelix: ["Shore Up", "Thousand Waves", "Coil", "Diamond Storm"],
-  mega_steelix: ["Shore Up", "Thousand Waves", "Coil", "Diamond Storm"],
+  steelix_mega: ["Shore Up", "Thousand Waves", "Coil", "Diamond Storm"],
   
   drowzee: ["Baddy Bad", "Strength Sap", "Lumina Crash", "Dark Void"],
   hypno: ["Baddy Bad", "Strength Sap", "Lumina Crash", "Dark Void"],
 
   krabby: ["Dire Claw", "Dragon Hammer", "Ivy Cudgel", "Jet Punch"],
   kingler: ["Dire Claw", "Dragon Hammer", "Ivy Cudgel", "Jet Punch"],
-  gigantamax_kingler: ["Dire Claw", "Dragon Hammer", "Ivy Cudgel", "Jet Punch"],
+  kingler_gmax: ["Dire Claw", "Dragon Hammer", "Ivy Cudgel", "Jet Punch"],
 
   voltorb: ["Nasty Plot", "Fusion Flare", "Energy Ball", "Electro Drift"],
   electrode: ["Nasty Plot", "Fusion Flare", "Energy Ball", "Electro Drift"],
@@ -182,7 +182,7 @@ export const pokerogue_pokemonEggMoves_Kanto = {
   tangrowth: ["Natures Madness", "Snap Trap", "Parting Shot", "Sappy Seed"],
   
   kangaskhan: ["Power Up Punch", "Trailblaze", "Covet", "Seismic Toss"],
-  mega_kangaskhan: ["Power Up Punch", "Trailblaze", "Covet", "Seismic Toss"],
+  kangaskhan_mega: ["Power Up Punch", "Trailblaze", "Covet", "Seismic Toss"],
 
   horsea: ["Snipe Shot", "Take Heart", "Shell Side Arm", "Dragon Energy"],
   seadra: ["Snipe Shot", "Take Heart", "Shell Side Arm", "Dragon Energy"],
@@ -196,19 +196,19 @@ export const pokerogue_pokemonEggMoves_Kanto = {
 
   scyther: ["Mighty Cleave", "Gear Grind", "Storm Throw", "Bitter Blade"],
   scizor: ["Mighty Cleave", "Gear Grind", "Storm Throw", "Bitter Blade"],
-  mega_scizor: ["Mighty Cleave", "Gear Grind", "Storm Throw", "Bitter Blade"],
+  scizor_mega: ["Mighty Cleave", "Gear Grind", "Storm Throw", "Bitter Blade"],
   
   pinsir: ["Headlong Rush", "Leech Life", "Crush Grip", "Extreme Speed"],
-  mega_pinsir: ["Headlong Rush", "Leech Life", "Crush Grip", "Extreme Speed"],
+  pinsir_mega: ["Headlong Rush", "Leech Life", "Crush Grip", "Extreme Speed"],
   
   tauros: ["Swords Dance", "Fire Lash", "Wicked Torque", "Collision Course"],
   
   magikarp: ["Flip Turn", "Ice Spinner", "Knock Off", "Dragon Ascent"],
   gyarados: ["Flip Turn", "Ice Spinner", "Knock Off", "Dragon Ascent"],
-  mega_gyarados: ["Flip Turn", "Ice Spinner", "Knock Off", "Dragon Ascent"],
+  gyarados_mega: ["Flip Turn", "Ice Spinner", "Knock Off", "Dragon Ascent"],
   
   lapras: ["Recover", "Freeze Dry", "Scald", "Shell Smash"],
-  gigantamax_lapras: ["Recover", "Freeze Dry", "Scald", "Shell Smash"],
+  lapras_gmax: ["Recover", "Freeze Dry", "Scald", "Shell Smash"],
   
   ditto: ["Mimic", "Sketch", "Metronome", "Imprison"],
   
@@ -233,7 +233,7 @@ export const pokerogue_pokemonEggMoves_Kanto = {
   kabutops: ["Ceaseless Edge", "High Horsepower", "Mighty Cleave", "Crabhammer"],
   
   aerodactyl: ["Acrobatics", "High Horsepower", "Stone Axe", "Swords Dance"],
-  mega_aerodactyl: ["Acrobatics", "High Horsepower", "Stone Axe", "Swords Dance"],
+  aerodactyl_mega: ["Acrobatics", "High Horsepower", "Stone Axe", "Swords Dance"],
   
   articuno: ["Earth Power", "Calm Mind", "Aurora Veil", "Aeroblast"],
   
@@ -246,8 +246,8 @@ export const pokerogue_pokemonEggMoves_Kanto = {
   dragonite: ["Dragon Hammer", "Crush Grip", "Fire Lash", "Gigaton Hammer"],
   
   mewtwo: ["Meteor Mash", "Moonblast", "Thunderous Kick", "Photon Geyser"],
-  mega_mewtwo_x: ["Meteor Mash", "Moonblast", "Thunderous Kick", "Photon Geyser"],
-  mega_mewtwo_y: ["Meteor Mash", "Moonblast", "Thunderous Kick", "Photon Geyser"],
+  mewtwo_mega_x: ["Meteor Mash", "Moonblast", "Thunderous Kick", "Photon Geyser"],
+  mewtwo_mega_y: ["Meteor Mash", "Moonblast", "Thunderous Kick", "Photon Geyser"],
   
   mew: ["Photon Geyser", "Moonblast", "Astral Barrage", "Shell Smash"]
 };
