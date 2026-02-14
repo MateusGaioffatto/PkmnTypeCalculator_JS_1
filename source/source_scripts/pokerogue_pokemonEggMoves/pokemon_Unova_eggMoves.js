@@ -54,7 +54,7 @@ export const pokerogue_pokemonEggMoves_Unova  = {
   excadrill: ["Meteor Mash", "Ice Spinner", "Shift Gear", "Thousand Arrows"],
 
   audino: ["Take Heart", "Moonblast", "Wish", "Matcha Gotcha"],
-  mega_audino: ["Take Heart", "Moonblast", "Wish", "Matcha Gotcha"],
+  audino_mega: ["Take Heart", "Moonblast", "Wish", "Matcha Gotcha"],
 
   timburr: ["Mach Punch", "Drain Punch", "Ice Hammer", "Double Iron Bash"],
   gurdurr: ["Mach Punch", "Drain Punch", "Ice Hammer", "Double Iron Bash"],
@@ -119,7 +119,7 @@ export const pokerogue_pokemonEggMoves_Unova  = {
 
   trubbish: ["Coil", "Recover", "Dire Claw", "Gigaton Hammer"],
   garbodor: ["Coil", "Recover", "Dire Claw", "Gigaton Hammer"],
-  gigantamax_garbodor: ["Coil", "Recover", "Dire Claw", "Gigaton Hammer"],
+  garbodor_gmax: ["Coil", "Recover", "Dire Claw", "Gigaton Hammer"],
 
   zorua: ["Malignant Chain", "Moonblast", "Secret Sword", "Fiery Wrath"],
   hisuian_zorua: ["Malignant Chain", "Moonblast", "Secret Sword", "Fiery Wrath"],
@@ -248,8 +248,8 @@ export const pokerogue_pokemonEggMoves_Unova  = {
   landorus_therian: ["Stone Axe", "Floaty Fall", "Roost", "Thousand Waves"],
 
   kyurem: ["Dragon Darts", "Glacial Lance", "No Retreat", "Dragon Energy"],
-  black_kyurem: ["Dragon Darts", "Glacial Lance", "No Retreat", "Dragon Energy"],
-  white_kyurem: ["Dragon Darts", "Glacial Lance", "No Retreat", "Dragon Energy"],
+  kyurem_black: ["Dragon Darts", "Glacial Lance", "No Retreat", "Dragon Energy"],
+  kyurem_white: ["Dragon Darts", "Glacial Lance", "No Retreat", "Dragon Energy"],
 
   keldeo: ["Bouncy Bubble", "Thunderbolt", "Ice Beam", "Steam Eruption"],
   keldeo_resolute: ["Bouncy Bubble", "Thunderbolt", "Ice Beam", "Steam Eruption"],
