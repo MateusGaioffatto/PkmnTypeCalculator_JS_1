@@ -28,7 +28,7 @@ export const pokerogue_pokemonEggMoves_Kalos = {
   flabebe: ["Glitzy Glow", "Mystical Fire", "Take Heart", "Seed Flare"],
   floette: ["Glitzy Glow", "Mystical Fire", "Take Heart", "Seed Flare"],
   florges: ["Glitzy Glow", "Mystical Fire", "Take Heart", "Seed Flare"],
-  eternal_floette: ["Mystical Fire", "Chloroblast", "Luster Purge", "Quiver Dance"],
+  floette_eternal: ["Mystical Fire", "Chloroblast", "Luster Purge", "Quiver Dance"],
   
   skiddo: ["High Horsepower", "Grassy Glide", "Stone Axe", "Sappy Seed"],
   gogoat: ["High Horsepower", "Grassy Glide", "Stone Axe", "Sappy Seed"],
@@ -103,7 +103,7 @@ export const pokerogue_pokemonEggMoves_Kalos = {
   zygarde: ["Dragon Darts", "V Create", "Clangorous Soul", "Heal Order"],
 
   diancie: ["Magical Torque", "Fiery Dance", "Shore Up", "Geomancy"],
-  mega_diancie: ["Magical Torque", "Fiery Dance", "Shore Up", "Geomancy"],
+  diancie_mega: ["Magical Torque", "Fiery Dance", "Shore Up", "Geomancy"],
 
   hoopa: ["Photon Geyser", "Secret Sword", "Fiery Wrath", "Shell Smash"],
 
