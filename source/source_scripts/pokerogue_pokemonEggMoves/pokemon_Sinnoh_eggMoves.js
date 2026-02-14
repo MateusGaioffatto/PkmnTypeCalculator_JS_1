@@ -58,7 +58,7 @@ export const pokerogue_pokemonEggMoves_Sinnoh = {
 
   buneary: ["Triple Axel", "Extreme Speed", "Thunderous Kick", "Swords Dance"],
   lopunny: ["Triple Axel", "Extreme Speed", "Thunderous Kick", "Swords Dance"],
-  mega_lopunny: ["Triple Axel", "Extreme Speed", "Thunderous Kick", "Swords Dance"],
+  lopunny_mega: ["Triple Axel", "Extreme Speed", "Thunderous Kick", "Swords Dance"],
 
   glameow: ["Parting Shot", "High Horsepower", "Swords Dance", "Extreme Speed"],
   purugly: ["Parting Shot", "High Horsepower", "Swords Dance", "Extreme Speed"],
@@ -90,15 +90,15 @@ export const pokerogue_pokemonEggMoves_Sinnoh = {
   gible: ["Meteor Mash", "Bitter Blade", "Lands Wrath", "Dragon Dance"],
   gabite: ["Meteor Mash", "Bitter Blade", "Lands Wrath", "Dragon Dance"],
   garchomp: ["Meteor Mash", "Bitter Blade", "Lands Wrath", "Dragon Dance"],
-  mega_garchomp: ["Meteor Mash", "Bitter Blade", "Lands Wrath", "Dragon Dance"],
+  garchomp_mega: ["Meteor Mash", "Bitter Blade", "Lands Wrath", "Dragon Dance"],
 
   munchlax: ["Obstruct", "Grav Apple", "Sucker Punch", "Slack Off"],
   snorlax: ["Obstruct", "Grav Apple", "Sucker Punch", "Slack Off"],
-  gigantamax_snorlax: ["Obstruct", "Grav Apple", "Sucker Punch", "Slack Off"],
+  snorlax_gmax: ["Obstruct", "Grav Apple", "Sucker Punch", "Slack Off"],
 
   riolu: ["Thunderous Kick", "Tachyon Cutter", "Triple Axel", "Sunsteel Strike"],
   lucario: ["Thunderous Kick", "Tachyon Cutter", "Triple Axel", "Sunsteel Strike"],
-  mega_lucario: ["Thunderous Kick", "Tachyon Cutter", "Triple Axel", "Sunsteel Strike"],
+  lucario_mega: ["Thunderous Kick", "Tachyon Cutter", "Triple Axel", "Sunsteel Strike"],
 
   hippopotas: ["Shore Up", "Stone Axe", "Bulk Up", "Salt Cure"],
   hippowdon: ["Shore Up", "Stone Axe", "Bulk Up", "Salt Cure"],
@@ -119,7 +119,7 @@ export const pokerogue_pokemonEggMoves_Sinnoh = {
 
   snover: ["Lands Wrath", "Powder", "Calm Mind", "Matcha Gotcha"],
   abomasnow: ["Lands Wrath", "Powder", "Calm Mind", "Matcha Gotcha"],
-  mega_abomasnow: ["Lands Wrath", "Powder", "Calm Mind", "Matcha Gotcha"],
+  abomasnow_mega: ["Lands Wrath", "Powder", "Calm Mind", "Matcha Gotcha"],
 
   rotom: ["Strength Sap", "Fiery Dance", "Splishy Splash", "Electro Drift"],
   rotom_heat: ["Strength Sap", "Fiery Dance", "Splishy Splash", "Electro Drift"],
@@ -135,17 +135,17 @@ export const pokerogue_pokemonEggMoves_Sinnoh = {
   azelf: ["Psystrike", "Aura Sphere", "Ice Beam", "Tail Glow"],
 
   dialga: ["Core Enforcer", "Take Heart", "Recover", "Make It Rain"],
-  origin_dialga: ["Core Enforcer", "Take Heart", "Recover", "Make It Rain"],
+  dialga_origin: ["Core Enforcer", "Take Heart", "Recover", "Make It Rain"],
 
   palkia: ["Malignant Chain", "Take Heart", "Recover", "Origin Pulse"],
-  origin_palkia: ["Malignant Chain", "Take Heart", "Recover", "Origin Pulse"],
+  palkia_origin: ["Malignant Chain", "Take Heart", "Recover", "Origin Pulse"],
 
   heatran: ["Energy Ball", "Recover", "Eruption", "Tachyon Cutter"],
 
   regigigas: ["Obstruct", "Recover", "Storm Throw", "Lands Wrath"],
 
   giratina: ["Dragon Dance", "Spectral Thief", "Recover", "Collision Course"],
-  origin_giratina: ["Dragon Dance", "Spectral Thief", "Recover", "Collision Course"],
+  giratina_origin: ["Dragon Dance", "Spectral Thief", "Recover", "Collision Course"],
 
   cresselia: ["Cosmic Power", "Body Press", "Sizzly Slide", "Lumina Crash"],
 
