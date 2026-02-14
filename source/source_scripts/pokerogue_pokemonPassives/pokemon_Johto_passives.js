@@ -5,7 +5,7 @@ export const pokerogue_pokemonJohto_passives = {
     cyndaquil: "White Smoke",
     quilava: "Drought",
     typhlosion: "Drought",
-    hisui_typhlosion: "Drought",
+    typhlosion_hisui: "Drought",
     totodile: "Strong Jaw",
     croconaw: "Strong Jaw",
     feraligatr: "Strong Jaw",

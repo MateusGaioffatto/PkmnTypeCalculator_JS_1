@@ -1,4 +1,4 @@
-export const pokerogue_pokemonpassives_galar = {
+export const pokerogue_pokemonGalar_passives = {
   grookey: "Pickpocket",
   thwackey: "Pickpocket",
   rillaboom: "Grass Pelt",
@@ -108,14 +108,14 @@ export const pokerogue_pokemonpassives_galar = {
   yamask_galar: "Tablets Of Ruin",
   runerigus: "Tablets Of Ruin",
   stunfisk_galar: "Arena Trap",
-  hisui_growlithe: "Reckless",
-  hisui_arcanine: "Reckless",
-  hisui_voltorb: "Magic Guard",
-  hisui_electrode: "Magic Guard",
-  hisui_qwilfish: "Merciless",
+  growlithe_hisui: "Reckless",
+  arcanine_hisui: "Reckless",
+  voltorb_hisui: "Magic Guard",
+  electrode_hisui: "Magic Guard",
+  qwilfish_hisui: "Merciless",
   overqwil: "Merciless",
-  hisui_sneasel: "Scrappy",
+  sneasel_hisui: "Scrappy",
   sneasler: "Scrappy",
-  hisui_zorua: "Shadow Shield",
-  hisui_zoroark: "Shadow Shield"
+  zorua_hisui: "Shadow Shield",
+  zoroark_hisui: "Shadow Shield"
 }

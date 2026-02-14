@@ -2,7 +2,7 @@ export const pokerogue_pokemonAlola_passives = {
   rowlet: "Wind Rider",
   dartrix: "Wind Rider",
   decidueye: "Sniper",
-  hisui_decidueye: "Sniper",
+  decidueye_hisui: "Sniper",
   litten: "Tough Claws",
   torracat: "Tough Claws",
   incineroar: "Tough Claws",

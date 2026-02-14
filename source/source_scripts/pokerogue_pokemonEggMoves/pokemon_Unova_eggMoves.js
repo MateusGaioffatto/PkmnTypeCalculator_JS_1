@@ -12,7 +12,7 @@ export const pokerogue_pokemonEggMoves_Unova  = {
   oshawott: ["Freeze Dry", "Shell Side Arm", "Sacred Sword", "Shell Smash"],
   dewott: ["Freeze Dry", "Shell Side Arm", "Sacred Sword", "Shell Smash"],
   samurott: ["Freeze Dry", "Shell Side Arm", "Sacred Sword", "Shell Smash"],
-  hisuian_samurott: ["Freeze Dry", "Shell Side Arm", "Sacred Sword", "Shell Smash"],
+  samurott_hisui: ["Freeze Dry", "Shell Side Arm", "Sacred Sword", "Shell Smash"],
 
   patrat: ["Fake Out", "Instruct", "Dynamic Punch", "Extreme Speed"],
   watchog: ["Fake Out", "Instruct", "Dynamic Punch", "Extreme Speed"],
@@ -81,7 +81,7 @@ export const pokerogue_pokemonEggMoves_Unova  = {
 
   petilil: ["Thunderous Kick", "Sparkling Aria", "Fiery Dance", "Flower Trick"],
   lilligant: ["Thunderous Kick", "Sparkling Aria", "Fiery Dance", "Flower Trick"],
-  hisuian_lilligant: ["Thunderous Kick", "Sparkling Aria", "Fiery Dance", "Flower Trick"],
+  lilligant_hisui: ["Thunderous Kick", "Sparkling Aria", "Fiery Dance", "Flower Trick"],
 
   basculin: ["Last Respects", "Close Combat", "Splishy Splash", "No Retreat"],
   white_striped_basculin: ["Last Respects", "Close Combat", "Splishy Splash", "No Retreat"],
@@ -122,9 +122,9 @@ export const pokerogue_pokemonEggMoves_Unova  = {
   garbodor_gmax: ["Coil", "Recover", "Dire Claw", "Gigaton Hammer"],
 
   zorua: ["Malignant Chain", "Moonblast", "Secret Sword", "Fiery Wrath"],
-  hisuian_zorua: ["Malignant Chain", "Moonblast", "Secret Sword", "Fiery Wrath"],
+  zorua_hisui: ["Malignant Chain", "Moonblast", "Secret Sword", "Fiery Wrath"],
   zoroark: ["Malignant Chain", "Moonblast", "Secret Sword", "Fiery Wrath"],
-  hisuian_zoroark: ["Malignant Chain", "Moonblast", "Secret Sword", "Fiery Wrath"],
+  zoroark_hisui: ["Malignant Chain", "Moonblast", "Secret Sword", "Fiery Wrath"],
 
   minccino: ["Icicle Spear", "Tidy Up", "Low Kick", "Population Bomb"],
   cinccino: ["Icicle Spear", "Tidy Up", "Low Kick", "Population Bomb"],
@@ -212,7 +212,7 @@ export const pokerogue_pokemonEggMoves_Unova  = {
 
   rufflet: ["Floaty Fall", "Aura Sphere", "Drill Run", "No Retreat"],
   braviary: ["Floaty Fall", "Aura Sphere", "Drill Run", "No Retreat"],
-  hisuian_braviary: ["Floaty Fall", "Aura Sphere", "Drill Run", "No Retreat"],
+  braviary_hisui: ["Floaty Fall", "Aura Sphere", "Drill Run", "No Retreat"],
 
   vullaby: ["Foul Play", "Body Press", "Roost", "Ruination"],
   mandibuzz: ["Foul Play", "Body Press", "Roost", "Ruination"],

@@ -182,18 +182,18 @@ export const pokerogue_pokemonEggMoves_Galar = {
 
   stunfisk_galar: ["Spiky Shield", "Thousand Arrows", "Strength Sap", "Double Iron Bash"],
 
-  hisui_growlithe: ["Wave Crash", "Head Smash", "Volt Tackle", "Dragon Dance"],
-  hisui_arcanine: ["Wave Crash", "Head Smash", "Volt Tackle", "Dragon Dance"],
+  growlithe_hisui: ["Wave Crash", "Head Smash", "Volt Tackle", "Dragon Dance"],
+  arcanine_hisui: ["Wave Crash", "Head Smash", "Volt Tackle", "Dragon Dance"],
 
-  hisui_voltorb: ["Dazzling Gleam", "Leech Seed", "Apple Acid", "Mind Blown"],
-  hisui_electrode: ["Dazzling Gleam", "Leech Seed", "Apple Acid", "Mind Blown"],
+  voltorb_hisui: ["Dazzling Gleam", "Leech Seed", "Apple Acid", "Mind Blown"],
+  electrode_hisui: ["Dazzling Gleam", "Leech Seed", "Apple Acid", "Mind Blown"],
 
-  hisui_qwilfish: ["Ceaseless Edge", "Baneful Bunker", "Recover", "Fishious Rend"],
+  qwilfish_hisui: ["Ceaseless Edge", "Baneful Bunker", "Recover", "Fishious Rend"],
   overqwil: ["Ceaseless Edge", "Baneful Bunker", "Recover", "Fishious Rend"],
 
-  hisui_sneasel: ["Drain Punch", "Knock Off", "Psychic Fangs", "Triple Axel"],
+  sneasel_hisui: ["Drain Punch", "Knock Off", "Psychic Fangs", "Triple Axel"],
   sneasler: ["Drain Punch", "Knock Off", "Psychic Fangs", "Triple Axel"],
 
-  hisui_zorua: ["Moonblast", "Secret Sword", "Parting Shot", "Blood Moon"],
-  hisui_zoroark: ["Moonblast", "Secret Sword", "Parting Shot", "Blood Moon"]
+  zorua_hisui: ["Moonblast", "Secret Sword", "Parting Shot", "Blood Moon"],
+  zoroark_hisui: ["Moonblast", "Secret Sword", "Parting Shot", "Blood Moon"]
 };
