@@ -144,22 +144,22 @@ export const pokerogue_pokemonEggMoves_Alola = {
   meltan: ["Bullet Punch", "Drain Punch", "Bulk Up", "Plasma Fists"],
   melmetal: ["Bullet Punch", "Drain Punch", "Bulk Up", "Plasma Fists"],
 
-  alola_sandshrew: ["Spiky Shield", "Liquidation", "Shift Gear", "Glacial Lance"],
-  alola_sandslash: ["Spiky Shield", "Liquidation", "Shift Gear", "Glacial Lance"],
+  sandshrew_alola: ["Spiky Shield", "Liquidation", "Shift Gear", "Glacial Lance"],
+  sandslash_alola: ["Spiky Shield", "Liquidation", "Shift Gear", "Glacial Lance"],
 
-  alola_vulpix: ["Moonblast", "Glare", "Mystical Fire", "Lunar Blessing"],
-  alola_ninetales: ["Moonblast", "Glare", "Mystical Fire", "Lunar Blessing"],
+  vulpix_alola: ["Moonblast", "Glare", "Mystical Fire", "Lunar Blessing"],
+  ninetales_alola: ["Moonblast", "Glare", "Mystical Fire", "Lunar Blessing"],
 
-  alola_diglett: ["Thousand Waves", "Swords Dance", "Triple Dive", "Pyro Ball"],
-  alola_dugtrio: ["Thousand Waves", "Swords Dance", "Triple Dive", "Pyro Ball"],
+  diglett_alola: ["Thousand Waves", "Swords Dance", "Triple Dive", "Pyro Ball"],
+  dugtrio_alola: ["Thousand Waves", "Swords Dance", "Triple Dive", "Pyro Ball"],
 
-  alola_meowth: ["Baddy Bad", "Buzzy Buzz", "Parting Shot", "Make It Rain"],
-  alola_persian: ["Baddy Bad", "Buzzy Buzz", "Parting Shot", "Make It Rain"],
+  meowth_alola: ["Baddy Bad", "Buzzy Buzz", "Parting Shot", "Make It Rain"],
+  persian_alola: ["Baddy Bad", "Buzzy Buzz", "Parting Shot", "Make It Rain"],
 
-  alola_geodude: ["Lands Wrath", "Fusion Bolt", "Stone Axe", "Extreme Speed"],
-  alola_graveler: ["Lands Wrath", "Fusion Bolt", "Stone Axe", "Extreme Speed"],
-  alola_golem: ["Lands Wrath", "Fusion Bolt", "Stone Axe", "Extreme Speed"],
+  geodude_alola: ["Lands Wrath", "Fusion Bolt", "Stone Axe", "Extreme Speed"],
+  graveler_alola: ["Lands Wrath", "Fusion Bolt", "Stone Axe", "Extreme Speed"],
+  golem_alola: ["Lands Wrath", "Fusion Bolt", "Stone Axe", "Extreme Speed"],
 
-  alola_grimer: ["Sucker Punch", "Barb Barrage", "Recover", "Surging Strikes"],
-  alola_muk: ["Sucker Punch", "Barb Barrage", "Recover", "Surging Strikes"]
+  grimer_alola: ["Sucker Punch", "Barb Barrage", "Recover", "Surging Strikes"],
+  muk_alola: ["Sucker Punch", "Barb Barrage", "Recover", "Surging Strikes"]
 }

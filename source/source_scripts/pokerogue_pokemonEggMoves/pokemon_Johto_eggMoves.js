@@ -29,7 +29,7 @@ export const pokerogue_pokemonEggMoves_Johto = {
   pichu: ["Moonblast", "Triple Axel", "Fiery Dance", "Aura Wheel"],
   pikachu: ["Moonblast", "Triple Axel", "Fiery Dance", "Aura Wheel"],
   raichu: ["Moonblast", "Triple Axel", "Fiery Dance", "Aura Wheel"],
-  alola_raichu: ["Moonblast", "Triple Axel", "Fiery Dance", "Aura Wheel"],
+  raichu_alola: ["Moonblast", "Triple Axel", "Fiery Dance", "Aura Wheel"],
 
   cleffa: ["Calm Mind", "Earth Power", "Lunar Blessing", "Light Of Ruin"],
   clefairy: ["Calm Mind", "Earth Power", "Lunar Blessing", "Light Of Ruin"],

@@ -22,7 +22,7 @@ export const pokerogue_pokemonJohto_passives = {
     pichu: "Electric Surge",
     pikachu: "Electric Surge",
     raichu: "Electric Surge",
-    alola_raichu: "Electric Surge",
+    raichu_alola: "Electric Surge",
     cleffa: "Prankster",
     clefairy: "Prankster",
     clefable: "Analytic",
@@ -58,8 +58,8 @@ export const pokerogue_pokemonJohto_passives = {
     pineco: "Rough Skin",
     forretress: "Iron Barbs",
     dunsparce: "Unaware",
-    dudunsparce_two_segment: "Unaware", // <= WITHOUT PASSIVE
-    dudunsparce_three_segment: "Unaware", // <= WITHOUT PASSIVE
+    dudunsparce_two_segment: "Unaware",
+    dudunsparce_three_segment: "Unaware",
     gligar: "Poison Touch",
     gliscor: "Toxic Boost",
     snubbull: "Pixilate",
