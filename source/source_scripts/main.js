@@ -20,8 +20,8 @@ export const pokemonSprites_container = document.getElementById("pokemon-sprites
     export const pokemonSprites_spritesContainer = document.getElementById("pokemon-sprites_spriteContainer-id");
     export const selectedPokemon_spritesContainer = document.getElementById("pokemon-selectedPokemon_spriteContainer-id");
         export const selectedPokemon_spritesContainer_img = document.querySelector("#pokemon-selectedPokemon_spriteContainer-id img");
-        export const selectedPokemon_spritesContainer_h2 = document.querySelector("#pokemon-selectedPokemon_spriteContainer-pokemonName-id");
-        export const selectedPokemon_spritesContainer_pokemonPassive = document.getElementById("#pokemon-selectedPokemon_spriteContainer-pokemonPassive-id");
+        export const selectedPokemon_spritesContainer_h2 = document.getElementById("pokemon-selectedPokemon_spriteContainer-pokemonName-id");
+        export const selectedPokemon_spritesContainer_pokemonPassive = document.getElementById("pokemon-selectedPokemon_spriteContainer-pokemonPassive-id");
 
 export const pokemonTypesEffects_container = document.getElementById("pokemon-typesEffects_container-id");
 export const pokemonTypesEffects_buttons = document.querySelectorAll(".pokemon-typesEffects_container button");

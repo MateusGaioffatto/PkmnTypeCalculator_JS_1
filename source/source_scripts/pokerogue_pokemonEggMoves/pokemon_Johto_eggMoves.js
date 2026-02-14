@@ -1,4 +1,4 @@
-export const pokemon_EggMoves_Johto = {
+export const pokerogue_pokemonEggMoves_Johto = {
   chikorita: ["Sappy Seed", "Stone Axe", "Dragon Dance", "Spore"],
   bayleef: ["Sappy Seed", "Stone Axe", "Dragon Dance", "Spore"],
   meganium: ["Sappy Seed", "Stone Axe", "Dragon Dance", "Spore"],
