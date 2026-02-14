@@ -144,7 +144,7 @@ function create_PokemonSprites_Images(first_type_selected, second_type_selected)
             if (POKEMON.name.indexOf('-') !== -1){
                 const contentAfterHyphen = POKEMON.name.split('-');
                 if (
-                    contentAfterHyphen[1] === "mega" || contentAfterHyphen[1] === "gmax" || 
+                    /*contentAfterHyphen[1] === "mega" ||*/ /*contentAfterHyphen[1] === "gmax" ||*/ 
                     contentAfterHyphen[2] === "totem" || contentAfterHyphen[1] === "totem" || 
                     contentAfterHyphen[0] === "pikachu" || contentAfterHyphen[0] === "terapagos" || 
                     contentAfterHyphen[0] === "eevee"

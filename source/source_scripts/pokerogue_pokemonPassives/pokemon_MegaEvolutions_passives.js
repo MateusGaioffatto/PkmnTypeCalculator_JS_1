@@ -1,65 +1,65 @@
 export const pokerogue_KantoMegaEvolutions_passives = {
-  mega_venusaur: "Seed Sower",
-  mega_charizard_x: "Levitate",
-  mega_charizard_y: "Turboblaze",
-  mega_blastoise: "Bulletproof",
-  mega_beedrill: "Tinted Lens",
-  mega_pidgeot: "Sheer Force",
-  mega_alakazam: "Magician",
-  mega_slowbro: "Regenerator",
-  mega_gengar: "Unnerve",
-  mega_kangaskhan: "Techician",
-  mega_pinsir: "Mold Breaker",
-  mega_gyarados: "Multiscale",
-  mega_aerodactyl: "Rocky Payload",
-  mega_mewtwo_x: "Neuroforce",
-  mega_mewtwo_y: "Neuroforce"
+  venusaur_mega: "Seed Sower",
+  charizard_mega_x: "Levitate",
+  charizard_mega_y: "Turboblaze",
+  blastoise_mega: "Bulletproof",
+  beedrill_mega: "Tinted Lens",
+  pidgeot_mega: "Sheer Force",
+  alakazam_mega: "Magician",
+  slowbro_mega: "Regenerator",
+  gengar_mega: "Unnerve",
+  kangaskhan_mega: "Techician",
+  pinsir_mega: "Mold Breaker",
+  gyarados_mega: "Multiscale",
+  aerodactyl_mega: "Rocky Payload",
+  mewtwo_mega_x: "Neuroforce",
+  mewtwo_mega_y: "Neuroforce"
 };
 
 export const pokerogue_JohtoMegaEvolutions_passives = {
-  mega_steelix: "Sand Spit",
-  mega_scizor: "Tough Claws",
-  mega_ampharos: "Fluffy",
-  mega_heracross: "Technician",
-  mega_houndoom: "Lightning Rod",
-  mega_tyranitar: "Solid Rock"
+  steelix_mega: "Sand Spit",
+  scizor_mega: "Tough Claws",
+  ampharos_mega: "Fluffy",
+  heracross_mega: "Technician",
+  houndoom_mega: "Lightning Rod",
+  tyranitar_mega: "Solid Rock"
 };
 
 export const pokerogue_HoennMegaEvolutions_passives = {
-  mega_sceptile: "Tinted Lens",
-  mega_blaziken: "Defiant",
-  mega_swampert: "Drizzle",
-  mega_gardevoir: "Psychic Surge",
-  mega_sableye: "Unnerve",
-  mega_mawile: "Intimidate",
-  mega_aggron: "Rocky Payload",
-  mega_medicham: "Mind's Eye",
-  mega_manectric: "Flash Fire",
-  mega_sharpedo: "Speed Boost",
-  mega_camerupt: "Stamina",
-  mega_altaria: "Fluffy",
-  mega_banette: "Shadow Shield",
-  mega_absol: "Sharpness",
-  mega_glalie: "Snow Warning",
-  mega_salamence: "Rock Head",
-  mega_metagross: "Full Metal Body",
-  mega_latias: "Prism Armor",
-  mega_latios: "Neuroforce",
-  mega_rayquaza: "Unnerve"
+  sceptile_mega: "Tinted Lens",
+  blaziken_mega: "Defiant",
+  swampert_mega: "Drizzle",
+  gardevoir_mega: "Psychic Surge",
+  sableye_mega: "Unnerve",
+  mawile_mega: "Intimidate",
+  aggron_mega: "Rocky Payload",
+  medicham_mega: "Mind's Eye",
+  manectric_mega: "Flash Fire",
+  sharpedo_mega: "Speed Boost",
+  camerupt_mega: "Stamina",
+  altaria_mega: "Fluffy",
+  banette_mega: "Shadow Shield",
+  absol_mega: "Sharpness",
+  glalie_mega: "Snow Warning",
+  salamence_mega: "Rock Head",
+  metagross_mega: "Full Metal Body",
+  latias_mega: "Prism Armor",
+  latios_mega: "Neuroforce",
+  rayquaza_mega: "Unnerve"
 }
 
 export const pokerogue_SinnohMegaEvolutions_passives = {
-  mega_lopunny: "Adaptability",
-  mega_lucario: "Mind's Eye",
-  mega_gallade: "Sharpness",
-  mega_garchomp: "Sand Rush",
-  mega_abomasnow: "Seed Sower"
+  lopunny_mega: "Adaptability",
+  lucario_mega: "Mind's Eye",
+  gallade_mega: "Sharpness",
+  garchomp_mega: "Sand Rush",
+  abomasnow_mega: "Seed Sower"
 };
 
 export const pokerogue_UnovaMegaEvolutions_passives = {
-  mega_audino: "Fairy Aura"
+  audino_mega: "Fairy Aura"
 };
 
 export const pokerogue_KalosMegaEvolutions_passives = {
-  mega_diancie: "Prism Armor"
+  diancie_mega: "Prism Armor"
 }
