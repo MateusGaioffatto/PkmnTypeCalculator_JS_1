@@ -64,6 +64,7 @@ export const pokerogue_pokemonUnova_passives = {
   krookodile: "Tough Claws",
   darumaka: "Gorilla Tactics",
   darmanitan: "Gorilla Tactics",
+  darmanitan_zen: "Psychic Surge",
   maractus: "Well Baked Body",
   dwebble: "Rocky Payload",
   crustle: "Rocky Payload",
@@ -159,5 +160,6 @@ export const pokerogue_pokemonUnova_passives = {
   kyurem: "Snow Warning",
   keldeo: "Grim Neigh",
   meloetta: "Punk Rock",
+  meloetta_pirouette: "Scrappy",
   genesect: "Protean"
 }

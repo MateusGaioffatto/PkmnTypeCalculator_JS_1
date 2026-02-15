@@ -176,6 +176,7 @@ export const pokerogue_pokemonEggMoves_Galar = {
 
   darumaka_galar: ["Ice Spinner", "Zing Zap", "Drain Punch", "Pyro Ball"],
   darmanitan_galar: ["Ice Spinner", "Zing Zap", "Drain Punch", "Pyro Ball"],
+  darmanitan_galar_zen: ["Ice Spinner", "Zing Zap", "Drain Punch", "Pyro Ball"],
 
   yamask_galar: ["Strength Sap", "Dire Claw", "Thousand Waves", "Spectral Thief"],
   runerigus: ["Strength Sap", "Dire Claw", "Thousand Waves", "Spectral Thief"],

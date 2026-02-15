@@ -94,7 +94,7 @@ export const pokerogue_pokemonEggMoves_Unova  = {
   darumaka: ["Drain Punch", "Zippy Zap", "Headlong Rush", "Pyro Ball"],
   darumaka_galar: ["Drain Punch", "Zippy Zap", "Headlong Rush", "Pyro Ball"],
   darmanitan: ["Drain Punch", "Zippy Zap", "Headlong Rush", "Pyro Ball"],
-  darmanitan_galar: ["Drain Punch", "Zippy Zap", "Headlong Rush", "Pyro Ball"],
+  darmanitan_zen: ["Drain Punch", "Zippy Zap", "Headlong Rush", "Pyro Ball"],
 
   maractus: ["Earth Power", "Sizzly Slide", "Fiery Dance", "Quiver Dance"],
 

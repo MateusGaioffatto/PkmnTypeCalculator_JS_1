@@ -209,7 +209,7 @@ function create_SelectedPokemon_MoreInformation(pokemon_name, pokemon_sprite_fro
 }
 function hide_SelectedPokemon_MoreInformation() {
     selectedPokemon_spritesContainer_h2.textContent = "";
-    selectedPokemon_spritesContainer_pokemonPassive.textContent = ""; 
+    selectedPokemon_spritesContainer_pokemonPassive.textContent = "passive: "; 
     selectedPokemon_spritesContainer.style.display = "none";
-    pokemonSprites_spritesContainer.style.display = "flex";
+    pokemonSprites_spritesContainer.style.display = "initial";
 }

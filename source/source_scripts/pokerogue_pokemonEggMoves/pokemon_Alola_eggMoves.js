@@ -129,7 +129,7 @@ export const pokerogue_pokemonEggMoves_Alola = {
   necrozma: ["Dynamax Cannon", "Sacred Fire", "Astral Barrage", "Clangorous Soul"],
 
   magearna: ["Recover", "Earth Power", "Moonblast", "Make It Rain"],
-
+  
   marshadow: ["Power Up Punch", "Bonemerang", "Meteor Mash", "Triple Axel"],
 
   poipole: ["Malignant Chain", "Ice Beam", "Armor Cannon", "Clanging Scales"],

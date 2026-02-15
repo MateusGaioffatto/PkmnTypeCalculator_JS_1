@@ -105,6 +105,7 @@ export const pokerogue_pokemonGalar_passives = {
   obstagoon: "Poison Heal",
   darumaka_galar: "Flash Fire",
   darmanitan_galar: "Flash Fire",
+  darmanitan_galar_zen: "Flash Fire",
   yamask_galar: "Tablets Of Ruin",
   runerigus: "Tablets Of Ruin",
   stunfisk_galar: "Arena Trap",
