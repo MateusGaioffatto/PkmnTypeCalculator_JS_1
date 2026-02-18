@@ -133,6 +133,29 @@
             height: fit-content;
             width: 100%;
             
+            border: 1px solid black;
+
             text-align: center;
             font-size: larger; 
         }
+            #pokemon-selectedPokemon_spriteContainer-name_passive_eggMoves_container-id {
+                display: block;
+                margin: 0 auto;
+                padding: 0;
+
+                height: fit-content;
+
+                box-shadow: none;
+            }
+                #pokemon-selectedPokemon_spriteContainer-name_passive_eggMoves_container-id  div {
+                    display: flex;
+
+                    text-align: center;
+
+                    justify-content: center;
+
+                    width: 100%;
+                }
+                #pokemon-selectedPokemon_spriteContainer-name_passive_eggMoves_container-id h2{
+                    width: fit-content;
+                }

@@ -16,8 +16,13 @@ import { pokemonSprites_container } from "./main.js";
     import { pokemonSprites_spritesContainer } from "./main.js";
     import { selectedPokemon_spritesContainer } from "./main.js";
         import { selectedPokemon_spritesContainer_img } from "./main.js";
-        import { selectedPokemon_spritesContainer_h2 } from "./main.js";
-        import { selectedPokemon_spritesContainer_pokemonPassive } from "./main.js";
+
+        import { selectedPokemon_spriteContainer_pokemonName_pokemonPassive_container } from "./main.js";
+            import { selectedPokemon_spritesContainer_pokemonName } from "./main.js";
+            import { selectedPokemon_spritesContainer_pokemonPassive } from "./main.js";
+
+        import { selectedPokemon_spriteContainer_pokemonEggMoves_container } from "./main.js";
+            import { selectedPokemon_spritesContainer_pokemonEggMoves } from "./main.js";
 
 import { pokemonTypesEffects_container } from "./main.js";
 import { pokemonTypesEffects_buttons } from "./main.js";
@@ -84,7 +89,8 @@ pokemonTypes_buttons.forEach((type_button, type_button_selected) => {
 
             pokemonTypesEffects_container.style.display = "none";
             pokemonSprites_spritesContainer.style.display = "none";
-            selectedPokemon_spritesContainer.style.display = "none";
+                selectedPokemon_spritesContainer.style.display = "none";
+                    selectedPokemon_spriteContainer_pokemonEggMoves_container.innerHTML = "";
 
             clickCount_selected_types = 0;     
             chossen_types = [];
@@ -201,15 +207,19 @@ function create_PokemonSprites_Images(first_type_selected, second_type_selected)
 
 
 function create_SelectedPokemon_MoreInformation(pokemon_name, pokemon_sprite_front_default) {
-    selectedPokemon_spritesContainer_h2.textContent = pokemon_name.charAt(0).toUpperCase() + pokemon_name.slice(1);
+    selectedPokemon_spritesContainer_pokemonName.textContent = pokemon_name.charAt(0).toUpperCase() + pokemon_name.slice(1);
     selectedPokemon_spritesContainer_pokemonPassive.textContent = pokerogue_pokemonPassives_All[pokemon_name.replaceAll("-", "_")];
+    for (let i = 0; i < 4; i++) { 
+        const selectedPokemon_spritesContainer_pokemonEggMoves_h2 = document.createElement('h2');
+        selectedPokemon_spritesContainer_pokemonEggMoves_h2.textContent = pokerogue_pokemonEggMoves_All[pokemon_name.replaceAll("-", "_")][i];
+        selectedPokemon_spriteContainer_pokemonEggMoves_container.appendChild(selectedPokemon_spritesContainer_pokemonEggMoves_h2);
+    }
     selectedPokemon_spritesContainer.style.display = "flex";
     selectedPokemon_spritesContainer_img.src = pokemon_sprite_front_default;
     pokemonSprites_spritesContainer.style.display = "none";
 }
 function hide_SelectedPokemon_MoreInformation() {
-    selectedPokemon_spritesContainer_h2.textContent = "";
-    selectedPokemon_spritesContainer_pokemonPassive.textContent = "passive: "; 
+    selectedPokemon_spriteContainer_pokemonEggMoves_container.innerHTML = "";
     selectedPokemon_spritesContainer.style.display = "none";
     pokemonSprites_spritesContainer.style.display = "initial";
 }
