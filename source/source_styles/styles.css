@@ -52,6 +52,15 @@
             .pokemon-type_Steel  {background-color: #aab; color: #ffffff;}    /* STEEL */
             .pokemon-type_Fairy  {background-color: #e9e; color: #ffffff;}    /* FAIRY */
 
+
+
+
+
+
+
+
+
+
 .pokemon-typesEffects_container, .pokemon-sprites_container {
     display: none;
 
@@ -116,6 +125,15 @@
             box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12);
         }
 
+
+
+
+
+
+
+
+
+
     #pokemon-selectedPokemon_spriteContainer-id {
         justify-content: start;
         text-align: unset;
@@ -125,37 +143,55 @@
         width: 125vh;
         height: 70vh;
     }
-        #pokemon-selectedPokemon_spriteContainer-id img {
+    #pokemon-selectedPokemon_spriteContainer-id div {
+        box-shadow: none;
+    }
+    #pokemon-selectedPokemon_spriteContainer-id h2 {
+        height: fit-content;
+        width: 100%;
+
+        padding: 2px;
+        /* border: 1px solid black; */
+        box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12);
+        
+        text-align: center;
+        font-size: larger; 
+    }
+        #pokemon-selectedPokemon_spriteContainer-name_img_container-id img {
             height: 50%;
             width: auto;
         }
-        #pokemon-selectedPokemon_spriteContainer-id h2 {
-            height: fit-content;
-            width: 100%;
-            
-            border: 1px solid black;
+        #pokemon-selectedPokemon_spriteContainer-name_img_container-id  div {
+            display: flex;
 
             text-align: center;
-            font-size: larger; 
+            gap: 15px;
+
+            justify-content: center;
+            
+            width: 100%;
         }
-            #pokemon-selectedPokemon_spriteContainer-name_passive_eggMoves_container-id {
+        #pokemon-selectedPokemon_spriteContainer-name_img_container-id h2{
+            width: fit-content;
+        }
+            #pokemon-selectedPokemon_spriteContainer-name_container-id {
                 display: block;
                 margin: 0 auto;
                 padding: 0;
-
+                
                 height: fit-content;
-
-                box-shadow: none;
             }
-                #pokemon-selectedPokemon_spriteContainer-name_passive_eggMoves_container-id  div {
-                    display: flex;
-
-                    text-align: center;
-
-                    justify-content: center;
-
-                    width: 100%;
+                #pokemon-selectedPokemon_spriteContainer-name_container-id h2 {
+                    padding: 7px;
+                    box-shadow: none;
                 }
-                #pokemon-selectedPokemon_spriteContainer-name_passive_eggMoves_container-id h2{
-                    width: fit-content;
-                }
+
+
+        #pokemon-selectedPokemon_spriteContainer-Passives_eggMoves_container-id {
+            display: flex;
+            flex-wrap: wrap;
+        }
+            #pokemon-selectedPokemon_spriteContainer-Passives_eggMoves_container-id h2 {
+                min-height: 8vh;
+                align-content: center;
+            }
