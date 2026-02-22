@@ -187,11 +187,28 @@
                 }
 
 
-        #pokemon-selectedPokemon_spriteContainer-Passives_eggMoves_container-id {
+        #pokemon-selectedPokemon_spriteContainer-passives_eggMoves_container-id {
             display: flex;
             flex-wrap: wrap;
         }
-            #pokemon-selectedPokemon_spriteContainer-Passives_eggMoves_container-id h2 {
+            #pokemon-selectedPokemon_spriteContainer-passives_eggMoves_container-id div {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+            }
+            #pokemon-selectedPokemon_spriteContainer-passives_eggMoves_container-id p {
+                width: 100%;
+                padding: 5px;
+                text-align: center;
+            }
+            #pokemon-selectedPokemon_spriteContainer-eggMoves_container-id {
+                width: 100%;
+
+                padding: 0;
+            }
+            #pokemon-selectedPokemon_spriteContainer-passives_eggMoves_container-id h2 {
                 min-height: 8vh;
                 align-content: center;
+
+                cursor: pointer;
             }

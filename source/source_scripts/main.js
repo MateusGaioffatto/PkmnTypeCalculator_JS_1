@@ -25,8 +25,8 @@ export const pokemonSprites_container = document.getElementById("pokemon-sprites
             export const selectedPokemon_spritesContainer_pokemonName = document.getElementById("pokemon-selectedPokemon_spriteContainer-pokemonName-id");
             export const selectedPokemon_spritesContainer_pokemonPassive = document.getElementById("pokemon-selectedPokemon_spriteContainer-pokemonPassive-id");
 
-        export const selectedPokemon_spriteContainer_pokemonPassives_pokemonEggMoves_container = document.getElementById("pokemon-selectedPokemon_spriteContainer-Passives_eggMoves_container-id");
-            export const selectedPokemon_spritesContainer_pokemonEggMoves = document.getElementById("pokemon-selectedPokemon_spriteContainer-pokemonEggMoves-id");
+        export const selectedPokemon_spriteContainer_pokemonPassives_pokemonEggMoves_container = document.getElementById("pokemon-selectedPokemon_spriteContainer-passives_eggMoves_container-id");
+            export const selectedPokemon_spritesContainer_pokemonEggMoves = document.getElementById("pokemon-selectedPokemon_spriteContainer-eggMoves_container-id");
 
 export const pokemonTypesEffects_container = document.getElementById("pokemon-typesEffects_container-id");
 export const pokemonTypesEffects_buttons = document.querySelectorAll(".pokemon-typesEffects_container button");
