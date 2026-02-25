@@ -1,4 +1,6 @@
 import { ALL_POKEMON } from "./main.js";
+import { ALL_MOVES_descriptions } from "./main.js";
+
 import { pokerogue_pokemonEggMoves_All } from "./pokerogue_pokemonEggMoves/pokemon_All_eggMoves.js";
 import { pokerogue_pokemonPassives_All } from "./pokerogue_pokemonPassives/pokemon_All_passives.js";
 
@@ -214,6 +216,7 @@ function create_SelectedPokemon_MoreInformation(pokemon_name, pokemon_sprite_fro
     for (let i = 0; i < 4; i++) { 
         const selectedPokemon_spritesContainer_pokemonEggMoves_h2 = document.createElement('h2');
         selectedPokemon_spritesContainer_pokemonEggMoves_h2.textContent = pokerogue_pokemonEggMoves_All[pokemon_name.replaceAll("-", "_")][i];
+        // selectedPokemon_spritesContainer_pokemonEggMoves_h2.title = pokerogue_pokemonEggMoves_All[pokemon_name.replaceAll("-", "_")][i];
         selectedPokemon_spritesContainer_pokemonEggMoves.appendChild(selectedPokemon_spritesContainer_pokemonEggMoves_h2);
     }
     selectedPokemon_spritesContainer.style.display = "flex";
