@@ -13,7 +13,7 @@ fetch(`https://pokeapi.co/api/v2/pokemon/?limit=2000`)
     })
     .catch(pokemon_error => console.error(`🙀 ${pokemon_error}`));
 
-export let ALL_MOVES_descriptions = [];
+export let ALL_MOVES = [];
 fetch(`https://pokeapi.co/api/v2/move/?limit=2000`)
     .then(pokemonMoves_response => pokemonMoves_response.json())
     .then(pokemonMoves_data => {
@@ -23,10 +23,16 @@ fetch(`https://pokeapi.co/api/v2/move/?limit=2000`)
             .then(pokemonMove_url => 
                 pokemonMove_url.json())
             .then(pokemonMoves_data => {
-                if (pokemonMoves_data.effect_entries[1] === undefined) {return};
-                ALL_MOVES_descriptions.push(pokemonMoves_data.effect_entries[1].effect);
-                console.log(pokemonMoves_data.name + " : ");
-                console.log(pokemonMoves_data.effect_entries[1].effect);
+                // if (pokemonMoves_data.effect_entries[1] === undefined) {
+                //     console.log(pokemonMoves_data.name);
+                //     console.log(pokemonMoves_data.effect_entries[0]);
+                //     return
+                // }; 
+                // <= FIND A WAY TO DO NOT NEED THIS SHIT
+                
+                ALL_MOVES.push(pokemonMoves_data);
+                // console.log(pokemonMoves_data.name + " : ");
+                // console.log(pokemonMoves_data.effect_entries[1].effect);
             })
         })
     })

@@ -1,5 +1,5 @@
 import { ALL_POKEMON } from "./main.js";
-import { ALL_MOVES_descriptions } from "./main.js";
+import { ALL_MOVES } from "./main.js";
 
 import { pokerogue_pokemonEggMoves_All } from "./pokerogue_pokemonEggMoves/pokemon_All_eggMoves.js";
 import { pokerogue_pokemonPassives_All } from "./pokerogue_pokemonPassives/pokemon_All_passives.js";
@@ -216,7 +216,19 @@ function create_SelectedPokemon_MoreInformation(pokemon_name, pokemon_sprite_fro
     for (let i = 0; i < 4; i++) { 
         const selectedPokemon_spritesContainer_pokemonEggMoves_h2 = document.createElement('h2');
         selectedPokemon_spritesContainer_pokemonEggMoves_h2.textContent = pokerogue_pokemonEggMoves_All[pokemon_name.replaceAll("-", "_")][i];
-        // selectedPokemon_spritesContainer_pokemonEggMoves_h2.title = pokerogue_pokemonEggMoves_All[pokemon_name.replaceAll("-", "_")][i];
+
+        const  selectedPokemon_eggMoves_effects = pokerogue_pokemonEggMoves_All[pokemon_name.replaceAll(" ", "-")][i].trim().replace(/\s+/g, "-").toLowerCase();
+        for (let i = 0; i < ALL_MOVES.length; i++) {
+            if (ALL_MOVES[i].name === selectedPokemon_eggMoves_effects) {
+                for (let j = 0; j < ALL_MOVES[i].flavor_text_entries.length; j++) {
+                    if (ALL_MOVES[i].flavor_text_entries[j].language.name === 'en') {
+                        selectedPokemon_spritesContainer_pokemonEggMoves_h2.title = ALL_MOVES[i].flavor_text_entries[j].flavor_text;
+                        break;
+                    }
+                }
+            }
+        }
+
         selectedPokemon_spritesContainer_pokemonEggMoves.appendChild(selectedPokemon_spritesContainer_pokemonEggMoves_h2);
     }
     selectedPokemon_spritesContainer.style.display = "flex";
