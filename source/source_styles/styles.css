@@ -206,9 +206,13 @@
 
                 padding: 0;
             }
-            #pokemon-selectedPokemon_spriteContainer-passives_eggMoves_container-id h2 {
-                min-height: 8vh;
-                align-content: center;
-
-                cursor: pointer;
+            #pokemon-selectedPokemon_spriteContainer-passives_eggMoves_container-id a {
+                text-decoration: none;
+                color: black;
             }
+                #pokemon-selectedPokemon_spriteContainer-passives_eggMoves_container-id h2 {
+                    min-height: 8vh;
+                    align-content: center;
+
+                    cursor: pointer;
+                }
